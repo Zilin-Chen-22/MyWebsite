@@ -1,7 +1,9 @@
 # Zilin Chen — Personal Website
 
-A hand-written static portfolio built with plain HTML, CSS, and JavaScript.
+A hand-written multi-page portfolio built with plain HTML, CSS, and JavaScript.
 There is no framework, site generator, package manager, or compilation step.
+
+The site includes independent Home, About, Research, Skills, and Contact pages.
 
 ## Preview locally
 
