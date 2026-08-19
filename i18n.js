@@ -1,0 +1,273 @@
+(() => {
+  const zh = {
+    "Skip to content": "跳至正文",
+    "Zilin Chen": "陈子林",
+    "Open menu": "打开菜单",
+    "About": "关于我",
+    "Research": "研究项目",
+    "Skills": "技能",
+    "Contact": "联系我",
+    "CV ↗": "简历 ↗",
+    "Next": "下一页",
+    "Next project": "下一个项目",
+    "Back to first project": "回到第一个项目",
+    "Back to top ↑": "返回顶部 ↑",
+    "Return home ←": "返回首页 ←",
+    "← All research": "← 返回全部项目",
+    "Robotics · Control · Intelligent Machines": "机器人 · 控制 · 智能机器",
+    "Research portfolio": "研究作品集",
+    "Tsinghua University": "清华大学",
+    "Zilin": "陈",
+    "Chen": "子林",
+    "/ Robotics & Control Researcher": "/ 机器人与控制研究者",
+    "I build intelligent machines that move with precision—connecting control theory, motion planning, simulation, and real-world robotic systems.": "我致力于构建能够精准运动的智能机器，将控制理论、运动规划、仿真与真实机器人系统连接起来。",
+    "Explore research": "浏览研究项目",
+    "More about me": "了解更多",
+    "Mechanical Engineering": "机械工程",
+    "Beijing, China": "中国北京",
+    "Open to collaboration": "期待合作",
+    "Robotics · Control": "机器人 · 控制",
+    "Motion planning": "运动规划",
+    "7-DOF robotic arm": "七自由度机械臂",
+    "DEA drone": "DEA 无人机",
+    "Explore the portfolio": "浏览作品集",
+    "Profile": "个人介绍",
+    "Background, interests, and approach": "背景、兴趣与研究方法",
+    "Robotics projects and experiments": "机器人项目与实验",
+    "Toolkit": "工具与技能",
+    "Methods, software, and hardware": "方法、软件与硬件",
+    "Get in touch ↗": "联系我 ↗",
+    "02 / Profile": "02 / 个人介绍",
+    "Engineering intelligence": "让工程智能",
+    "into physical systems.": "进入真实物理系统。",
+    "I move between mathematical models and physical prototypes—turning an idea into a system that can be tested, measured, and improved.": "我在数学模型与物理原型之间不断往返，把想法转化为可以测试、测量和持续改进的系统。",
+    "Zilin Chen · 陈子林": "陈子林 · Zilin Chen",
+    "I am a mechanical engineering student at Tsinghua University, working at the intersection of robotics, control, and programmable matter.": "我是清华大学机械工程专业学生，研究方向位于机器人、控制与可编程物质的交叉领域。",
+    "I am particularly interested in how intelligent systems interact with the physical world. My work spans robotic arm motion planning, autonomous flight, collaborative robots, embedded control, and simulation.": "我尤其关注智能系统如何与物理世界交互。我的工作涉及机械臂运动规划、自主飞行、协作机器人、嵌入式控制与仿真。",
+    "I enjoy research that crosses boundaries: theory informs implementation, simulation accelerates iteration, and experiments reveal what the model has missed.": "我喜欢跨越边界的研究：理论指导实现，仿真加速迭代，而实验则揭示模型尚未捕捉到的问题。",
+    "University": "学校",
+    "Discipline": "专业",
+    "Focus": "方向",
+    "Robotics & Control": "机器人与控制",
+    "Location": "所在地",
+    "Email ↗": "邮件 ↗",
+    "Download CV ↓": "下载简历 ↓",
+    "Research & projects": "研究与项目",
+    "03 / Selected work": "03 / 精选项目",
+    "Research &": "研究与",
+    "engineering projects.": "工程项目。",
+    "Systems, algorithms, and experiments across robotic arms, aerial vehicles, embedded control, and collaborative robots.": "涵盖机械臂、飞行器、嵌入式控制与协作机器人的系统、算法和实验。",
+    "Motion Planning · Humanoid Robotics": "运动规划 · 人形机器人",
+    "7-DOF Robotic Arm Motion Planning": "七自由度机械臂运动规划",
+    "Developed and optimized kinematics and trajectory-planning methods for a humanoid robotic arm, connecting MuJoCo simulation with physical validation.": "开发并优化人形机器人机械臂的运动学与轨迹规划方法，连接 MuJoCo 仿真和实体验证。",
+    "Inverse Kinematics": "逆运动学",
+    "C / Python": "C / Python",
+    "View project": "查看项目",
+    "Flight Control · Soft Robotics": "飞行控制 · 软体机器人",
+    "Ultra-Lightweight DEA Drone Controller": "超轻量 DEA 无人机控制器",
+    "Built a controller and simulator for a 23-gram drone powered by dielectric elastomer actuators.": "为一架由介电弹性体驱动器驱动的 23 克无人机开发控制器与仿真器。",
+    "Adaptive PID": "自适应 PID",
+    "Sensor Fusion": "传感器融合",
+    "Sensor fusion": "传感器融合",
+    "Simulation": "仿真",
+    "Autonomous Flight · Planning": "自主飞行 · 规划",
+    "UTAT Autonomous Drone Racing": "UTAT 自主无人机竞速",
+    "Reconstructed a Betaflight-based simulator and developed yaw-planning methods for perception-aware racing trajectories.": "重建基于 Betaflight 的仿真器，并为感知约束下的竞速轨迹开发偏航规划方法。",
+    "Trajectory": "轨迹规划",
+    "Control": "控制",
+    "Collaborative Robotics · Workspace": "协作机器人 · 工作空间",
+    "Dual-Arm Robot Workspace Analysis": "双机械臂工作空间分析",
+    "Used Monte Carlo simulation to identify feasible workspace regions while accounting for rigid coupling and inter-arm collision constraints.": "利用蒙特卡洛仿真，在考虑刚性耦合与机械臂间碰撞约束的情况下识别可行工作空间。",
+    "Monte Carlo": "蒙特卡洛",
+    "Collision Analysis": "碰撞分析",
+    "Embedded Systems · Computer Vision": "嵌入式系统 · 计算机视觉",
+    "Intelligent Autonomous Guided Car": "智能自主循迹小车",
+    "Led a team building a vehicle with line following, obstacle navigation, visual localization, and Bluetooth control.": "带领团队构建集循迹、避障导航、视觉定位与蓝牙控制于一体的智能小车。",
+    "PID Control": "PID 控制",
+    "Skills & toolkit": "技能与工具",
+    "04 / Toolkit": "04 / 技能工具",
+    "Methods, tools": "方法、工具",
+    "& other interests.": "与其他兴趣。",
+    "I work across software, hardware, modeling, and experimentation—and stay curious outside the lab through music.": "我的工作横跨软件、硬件、建模与实验，也通过音乐保持实验室之外的好奇心。",
+    "Programming": "编程",
+    "Languages &": "语言与",
+    "development": "开发",
+    "Robotics": "机器人",
+    "Algorithms &": "算法与",
+    "systems": "系统",
+    "Kinematics": "运动学",
+    "Control systems": "控制系统",
+    "Robot simulation": "机器人仿真",
+    "Engineering": "工程",
+    "Hardware &": "硬件与",
+    "software": "软件",
+    "Beyond the lab": "实验室之外",
+    "Music &": "音乐与",
+    "leadership": "领导力",
+    "Piano and double bass player; former Vice President of the Tsinghua University Symphonic Orchestra and conductor of its second team.": "钢琴与低音提琴演奏者；曾任清华大学交响乐团副团长及二团指挥。",
+    "Piano · Grade 9": "钢琴 · 九级",
+    "Double bass · Grade 10": "低音提琴 · 十级",
+    "ABRSM Piano · Grade 8": "英皇钢琴 · 八级",
+    "Contact & collaboration": "联系与合作",
+    "05 / Let’s connect": "05 / 保持联系",
+    "Interested in robotics,": "对机器人、",
+    "control, or a new idea?": "控制或新想法感兴趣？",
+    "I am always happy to discuss research, engineering challenges, and thoughtful collaborations.": "欢迎与我讨论研究、工程挑战以及有意义的合作。",
+    "Curriculum Vitae": "个人简历",
+    "Download PDF ↓": "下载 PDF ↓",
+    "Year": "年份",
+    "Role": "角色",
+    "Tools": "工具",
+    "Methods": "方法",
+    "Motion Planning Researcher": "运动规划研究者",
+    "DH Modeling": "DH 建模",
+    "Interpolation": "插值",
+    "Kinematics and trajectory-planning methods developed in simulation and prepared for physical validation on a humanoid robotic arm.": "在仿真中开发运动学与轨迹规划方法，并为人形机器人机械臂的实体验证做好准备。",
+    "From geometry to reliable motion.": "从几何模型到可靠运动。",
+    "The project connects analytical robot modeling with practical trajectory generation, creating a clear path from target pose to executable joint motion.": "该项目将机器人解析建模与实际轨迹生成连接起来，建立从目标位姿到可执行关节运动的清晰流程。",
+    "Objective": "目标",
+    "Build and validate a motion-planning workflow for a seven-degree-of-freedom arm, with attention to reachability, smoothness, numerical stability, and the constraints introduced by a physical platform.": "构建并验证七自由度机械臂运动规划流程，重点关注可达性、平滑性、数值稳定性以及实体平台带来的约束。",
+    "Approach": "方法",
+    "I modeled the arm using Denavit–Hartenberg parameters, implemented forward and inverse kinematics, and compared candidate solutions across joint limits and pose error. Joint-space and task-space interpolation were then used to produce smooth trajectories.": "我使用 Denavit–Hartenberg 参数建立机械臂模型，实现正逆运动学，并根据关节限制与位姿误差比较候选解，随后通过关节空间和任务空间插值生成平滑轨迹。",
+    "Validation": "验证",
+    "The algorithms were integrated with a MuJoCo model for collision-aware simulation. The implementation combined Python for rapid analysis with C for controller-side execution, supporting repeatable simulation-to-hardware testing.": "算法与 MuJoCo 模型集成以进行碰撞感知仿真，结合 Python 快速分析与 C 语言控制器执行，支持可重复的仿真到硬件测试。",
+    "A control and simulation stack for a 23-gram aerial robot powered by soft dielectric elastomer actuators.": "面向一架由柔性介电弹性体驱动器驱动的 23 克飞行机器人的控制与仿真系统。",
+    "Nonlinear Flight Control": "非线性飞行控制",
+    "Nonlinear Dynamics": "非线性动力学",
+    "Controlling flight with artificial muscles.": "用人工肌肉控制飞行。",
+    "At this scale, actuator dynamics, payload limits, and noisy measurements make conventional multirotor assumptions difficult to apply directly.": "在这一尺度下，驱动器动力学、载荷限制与测量噪声使传统多旋翼假设难以直接适用。",
+    "Challenge": "挑战",
+    "The 23-gram platform uses dielectric elastomer actuators rather than standard motors. Their nonlinear response and the drone’s low inertia demand a lightweight control architecture that can adapt as operating conditions change.": "这款 23 克平台使用介电弹性体驱动器而非传统电机。其非线性响应与无人机的低惯量要求控制架构轻量且能适应工况变化。",
+    "Controller design": "控制器设计",
+    "I developed an adaptive PID structure around a nonlinear dynamic model and combined multiple sensor signals to estimate attitude reliably. The controller was designed to remain understandable and tunable while compensating for actuator variation.": "我围绕非线性动力学模型设计自适应 PID 结构，并融合多种传感器信号以可靠估计姿态，在补偿驱动器变化的同时保持控制器易理解、易调节。",
+    "Simulation workflow": "仿真流程",
+    "A dedicated simulator reproduced the vehicle dynamics and actuator response, enabling safe parameter sweeps and disturbance tests before flight experiments. The result is a repeatable environment for refining the control strategy.": "专用仿真器复现飞行器动力学与驱动器响应，使飞行实验前能够安全进行参数扫描和扰动测试，为优化控制策略提供可重复环境。",
+    "A reconstructed Betaflight simulation workflow with perception-aware yaw planning for aggressive autonomous flight.": "重建 Betaflight 仿真流程，并为高速自主飞行开发感知约束下的偏航规划。",
+    "Team": "团队",
+    "Simulation · Trajectory Planning": "仿真 · 轨迹规划",
+    "Yaw Planning": "偏航规划",
+    "Vision": "视觉",
+    "Planning fast motion that can still see.": "规划既快速又看得见的运动。",
+    "Drone racing is not only a trajectory problem: the vehicle must preserve useful camera views while moving near its dynamic limits.": "无人机竞速不只是轨迹问题：飞行器在接近动力学极限运动时，仍需保持有效的相机视野。",
+    "Simulator reconstruction": "仿真器重建",
+    "I helped reconstruct a Betaflight-based simulation environment so controller behavior could be studied against a software stack representative of the physical racing platform.": "我参与重建基于 Betaflight 的仿真环境，使控制器行为能够在接近实体竞速平台的软件栈中进行研究。",
+    "Perception-aware planning": "感知约束规划",
+    "The yaw planner was designed to coordinate vehicle heading with the planned path and upcoming visual targets. This balances aggressive motion with the camera visibility required for reliable gate detection.": "偏航规划器协调飞行器航向、规划路径与即将到来的视觉目标，在高速运动与可靠识别赛门所需的相机可见性之间取得平衡。",
+    "Engineering value": "工程价值",
+    "The workflow made it possible to iterate on planning and control without consuming flight hardware, while keeping the simulation assumptions close enough to support later real-world testing.": "该流程无需消耗飞行硬件即可迭代规划与控制，同时保持足够贴近真实系统的仿真假设，以支持后续实机测试。",
+    "A Monte Carlo study of feasible collaborative workspace under coupling, reachability, and inter-arm collision constraints.": "在耦合、可达性与机械臂间碰撞约束下，对可行协作工作空间进行蒙特卡洛分析。",
+    "Collaborative Manipulation": "协作操作",
+    "Workspace Sampling": "工作空间采样",
+    "Rigid Coupling": "刚性耦合",
+    "Finding where two arms can work as one.": "寻找双臂协同工作的空间。",
+    "A useful collaborative workspace must satisfy more than individual reachability: both manipulators need a compatible pose without colliding.": "有效的协作工作空间不仅要满足单臂可达性，还要求两个机械臂拥有兼容位姿且不会碰撞。",
+    "Model": "模型",
+    "The two arms were modeled with a rigid relationship at the shared task interface. Joint limits, relative end-effector geometry, and inter-arm collision conditions were incorporated into the feasibility test.": "双臂在共享任务接口处采用刚性关系建模，并将关节限制、末端执行器相对几何关系及臂间碰撞条件纳入可行性测试。",
+    "Monte Carlo analysis": "蒙特卡洛分析",
+    "I used large-scale random sampling in MATLAB to explore the configuration space and identify valid operating regions. This avoids relying on oversimplified geometric intersections that ignore orientation and collision constraints.": "我使用 MATLAB 进行大规模随机采样，探索构型空间并识别有效工作区域，避免依赖忽略姿态和碰撞约束的过度简化几何交集。",
+    "Outcome": "结果",
+    "The resulting workspace maps reveal how base placement and coupling geometry affect usable volume, providing a practical reference for system layout and collaborative task planning.": "生成的工作空间图揭示底座位置与耦合几何如何影响可用空间，为系统布局和协作任务规划提供实际参考。",
+    "An STM32 and OpenMV mobile robot integrating line following, obstacle navigation, visual localization, and wireless control.": "一款基于 STM32 与 OpenMV、集循迹、避障导航、视觉定位和无线控制于一体的移动机器人。",
+    "Team Lead · Team of Three": "三人团队负责人",
+    "Systems": "系统",
+    "Embedded C": "嵌入式 C",
+    "Bluetooth": "蓝牙",
+    "One compact platform, multiple autonomous behaviors.": "一个紧凑平台，多种自主行为。",
+    "The project combined sensing, control, and embedded integration into a reliable vehicle capable of handling several navigation tasks.": "该项目将感知、控制和嵌入式集成结合到可靠的小车平台中，使其能够完成多种导航任务。",
+    "System integration": "系统集成",
+    "As team lead, I coordinated the work of three students and integrated the STM32 motor-control layer with OpenMV vision processing, ranging sensors, and a Bluetooth interface.": "作为团队负责人，我协调三名学生的工作，并将 STM32 电机控制层与 OpenMV 视觉处理、测距传感器及蓝牙接口集成。",
+    "PID loops regulated steering and speed for line following. State logic connected visual localization and obstacle detection to different driving behaviors while keeping transitions predictable.": "PID 回路调节循迹过程中的转向与速度，状态逻辑将视觉定位和障碍检测连接到不同驾驶行为，同时保持状态切换可预测。",
+    "Result": "成果",
+    "The completed vehicle could follow marked routes, navigate around obstacles, respond to visual cues, and accept manual wireless commands—demonstrating a complete sensing-to-action embedded pipeline.": "完成的小车能够沿标记路线行驶、绕过障碍、响应视觉提示并接收无线手动指令，展示完整的感知到执行嵌入式流程。",
+    "Ultra-Lightweight DEA Drone": "超轻量 DEA 无人机",
+    "Dual-Arm Workspace Analysis": "双机械臂工作空间分析",
+    "Intelligent Guided Car": "智能循迹小车",
+    "7-DOF Robotic Arm": "七自由度机械臂",
+    "Zilin Chen, home": "陈子林，首页",
+    "Primary navigation": "主导航",
+    "Switch color theme": "切换颜色主题",
+    "Zilin Chen — Robotics & Control": "陈子林 — 机器人与控制",
+    "About — Zilin Chen": "关于我 — 陈子林",
+    "Research — Zilin Chen": "研究项目 — 陈子林",
+    "Skills — Zilin Chen": "技能 — 陈子林",
+    "Contact — Zilin Chen": "联系我 — 陈子林",
+    "7-DOF Robotic Arm Motion Planning — Zilin Chen": "七自由度机械臂运动规划 — 陈子林",
+    "Ultra-Lightweight DEA Drone — Zilin Chen": "超轻量 DEA 无人机 — 陈子林",
+    "UTAT Autonomous Drone Racing — Zilin Chen": "UTAT 自主无人机竞速 — 陈子林",
+    "Dual-Arm Robot Workspace Analysis — Zilin Chen": "双机械臂工作空间分析 — 陈子林",
+    "Intelligent Autonomous Guided Car — Zilin Chen": "智能自主循迹小车 — 陈子林",
+    "Zilin Chen is a robotics and control researcher at Tsinghua University working on motion planning, flight control, simulation, and intelligent machines.": "陈子林是清华大学机器人与控制方向研究者，研究运动规划、飞行控制、仿真与智能机器。",
+    "About Zilin Chen, a mechanical engineering student and robotics researcher at Tsinghua University.": "关于清华大学机械工程专业学生、机器人研究者陈子林。",
+    "Selected robotics, control, and simulation research projects by Zilin Chen.": "陈子林在机器人、控制与仿真领域的精选研究项目。",
+    "Programming, robotics, engineering, and musical skills of Zilin Chen.": "陈子林在编程、机器人、工程与音乐方面的技能。",
+    "Contact Zilin Chen for robotics research and engineering collaboration.": "联系陈子林，探讨机器人研究与工程合作。",
+    "7-DOF humanoid robotic arm motion planning project by Zilin Chen.": "陈子林的七自由度人形机器人机械臂运动规划项目。",
+    "Ultra-lightweight dielectric elastomer actuator drone controller project by Zilin Chen.": "陈子林的超轻量介电弹性体驱动无人机控制器项目。",
+    "UTAT autonomous drone racing simulation and yaw planning project by Zilin Chen.": "陈子林的 UTAT 自主无人机竞速仿真与偏航规划项目。",
+    "Dual-arm collaborative robot workspace analysis project by Zilin Chen.": "陈子林的双机械臂协作机器人工作空间分析项目。",
+    "STM32 and OpenMV intelligent autonomous guided car project by Zilin Chen.": "陈子林基于 STM32 与 OpenMV 的智能自主循迹小车项目。",
+    "Humanoid robotic arm motion planning visualization": "人形机器人机械臂运动规划可视化",
+    "Ultra-lightweight DEA drone": "超轻量 DEA 无人机",
+    "Autonomous drone racing simulation": "自主无人机竞速仿真",
+    "Dual-arm collaborative robot configuration": "双机械臂协作机器人构型",
+    "Intelligent autonomous guided vehicle": "智能自主循迹小车"
+  };
+
+  const originalText = new WeakMap();
+  const originalAttributes = new WeakMap();
+  const originalTitle = document.title;
+  const description = document.querySelector('meta[name="description"]');
+  const originalDescription = description?.content || "";
+
+  const translateValue = (value, language) => {
+    if (language !== "zh") return value;
+    const trimmed = value.trim();
+    if (!trimmed || !zh[trimmed]) return value;
+    return value.replace(trimmed, zh[trimmed]);
+  };
+
+  const languageButton = document.createElement("button");
+  languageButton.className = "language-toggle";
+  languageButton.type = "button";
+  document.querySelector(".theme-toggle")?.before(languageButton);
+
+  const applyLanguage = (language) => {
+    const selected = language === "zh" ? "zh" : "en";
+    document.documentElement.lang = selected === "zh" ? "zh-CN" : "en";
+
+    const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
+    while (walker.nextNode()) {
+      const node = walker.currentNode;
+      if (!originalText.has(node)) originalText.set(node, node.nodeValue);
+      node.nodeValue = translateValue(originalText.get(node), selected);
+    }
+
+    document.querySelectorAll("[alt], [aria-label], [title]").forEach((element) => {
+      if (!originalAttributes.has(element)) {
+        originalAttributes.set(element, {
+          alt: element.getAttribute("alt"),
+          ariaLabel: element.getAttribute("aria-label"),
+          title: element.getAttribute("title")
+        });
+      }
+      const values = originalAttributes.get(element);
+      if (values.alt !== null) element.setAttribute("alt", translateValue(values.alt, selected));
+      if (values.ariaLabel !== null) element.setAttribute("aria-label", translateValue(values.ariaLabel, selected));
+      if (values.title !== null) element.setAttribute("title", translateValue(values.title, selected));
+    });
+
+    document.title = translateValue(originalTitle, selected);
+    if (description) description.content = translateValue(originalDescription, selected);
+    languageButton.textContent = selected === "zh" ? "EN" : "中";
+    languageButton.setAttribute("aria-label", selected === "zh" ? "Switch to English" : "切换到中文");
+    languageButton.title = selected === "zh" ? "Switch to English" : "切换到中文";
+  };
+
+  let language = localStorage.getItem("zilin-language") === "zh" ? "zh" : "en";
+  applyLanguage(language);
+  languageButton.addEventListener("click", () => {
+    language = language === "zh" ? "en" : "zh";
+    localStorage.setItem("zilin-language", language);
+    applyLanguage(language);
+  });
+})();
