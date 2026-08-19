@@ -75,9 +75,10 @@ button { color: inherit; font: inherit; }
 }
 .wordmark {
   align-items: center; display: flex; font-size: .78rem; font-weight: 700;
-  gap: .65rem; letter-spacing: .13em; margin-right: 1rem;
+  gap: .65rem; letter-spacing: .13em; margin-right: 1rem; text-transform: uppercase;
 }
 .wordmark-dot { background: var(--coral); border-radius: 50%; height: 9px; width: 9px; }
+.wordmark-name { white-space: nowrap; }
 .nav-links { display: flex; gap: clamp(1.2rem, 3vw, 3rem); }
 .nav-links a {
   color: var(--muted); font-size: .82rem; font-weight: 600; letter-spacing: .04em;
