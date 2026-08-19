@@ -21,6 +21,7 @@ Personal research portfolio for Zilin Chen / 陈子林, focused on robotics, con
 - `skills.html`: technical skills and interests
 - `contact.html`: contact information
 - `assets/images/`: portrait and project images
+- `assets/media/`: original project evidence images and demonstration videos, grouped by project
 - `assets/files/Zilin_Chen_CV.pdf`: downloadable CV
 
 ## Accepted design decisions
@@ -33,6 +34,8 @@ Personal research portfolio for Zilin Chen / 陈子林, focused on robotics, con
 - Responsive behavior is required for desktop and mobile.
 - Light/dark preference and English/Chinese preference are stored in browser local storage.
 - The language switch sits next to the light/dark control and shows the language available to switch to (`中` or `EN`).
+- The home footer contains a deliberately understated hard-coded `Last modified` date. Update it whenever accepted site content or functionality changes.
+- Original project media is part of the portfolio content and must not be dropped during redesigns or migrations.
 
 ## Maintenance workflow
 

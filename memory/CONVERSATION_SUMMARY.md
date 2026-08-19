@@ -33,5 +33,5 @@ This is a concise decision record, not a verbatim transcript.
 
 ## Current request
 
-- Preserve project memory in Git so future work can recover context quickly.
-- Provide a complete English/Chinese interface with a switch beside the light/dark mode control.
+- Preserve all original project images and videos when modernizing the site; a cover-only migration is not sufficient.
+- Show a subtle `Last modified` date on the home page.

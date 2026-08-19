@@ -10,6 +10,9 @@
 - Replaced the unclear `ZC / 22` mark with `ZILIN CHEN` and removed the duplicate Home menu item.
 - Added repository memory documentation for future handoffs.
 - Added a persistent English/Chinese language switch across all pages.
+- Restored all original project evidence media: 14 supporting images and three intelligent-car demonstration videos.
+- Added responsive media galleries to all five project detail pages.
+- Added a subtle `Last modified` date to the home footer.
 
 ## Deferred ideas
 
