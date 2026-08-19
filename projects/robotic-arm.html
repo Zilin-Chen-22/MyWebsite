@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="7-DOF humanoid robotic arm motion planning project by Zilin Chen."><meta name="theme-color" content="#f1eddf">
+  <title>7-DOF Robotic Arm Motion Planning — Zilin Chen</title><link rel="icon" href="../assets/images/zilin-chen.jpg"><link rel="stylesheet" href="../styles.css"><script src="../script.js" defer></script>
+</head>
+<body data-page="research">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="top"><nav class="nav-shell" aria-label="Primary navigation">
+    <a class="wordmark" href="../index.html" aria-label="Zilin Chen, home"><span class="wordmark-dot" aria-hidden="true"></span><span>ZC / 22</span></a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links"><span></span><span></span><span class="sr-only">Open menu</span></button>
+    <div class="nav-links" id="nav-links"><a data-nav="home" href="../index.html">Home</a><a data-nav="about" href="../about.html">About</a><a data-nav="research" href="../research.html">Research</a><a data-nav="skills" href="../skills.html">Skills</a><a data-nav="contact" href="../contact.html">Contact</a></div>
+    <div class="nav-actions"><a class="cv-link" href="../assets/files/Zilin_Chen_CV.pdf" target="_blank" rel="noopener">CV ↗</a><button class="theme-toggle" type="button" aria-label="Switch color theme"><span class="theme-sun" aria-hidden="true">☼</span><span class="theme-moon" aria-hidden="true">◐</span></button></div>
+  </nav></header>
+  <main id="main" class="inner-page project-detail">
+    <section class="project-detail-hero section-shell reveal"><a class="project-breadcrumb" href="../research.html">← All research</a><div class="project-detail-title"><div><p class="section-kicker">Motion Planning · Humanoid Robotics</p><h1>7-DOF Robotic Arm Motion Planning</h1></div><p class="project-deck">Kinematics and trajectory-planning methods developed in simulation and prepared for physical validation on a humanoid robotic arm.</p></div><div class="detail-meta"><div><span>Year</span><strong>2025</strong></div><div><span>Role</span><strong>Motion Planning Researcher</strong></div><div><span>Tools</span><strong>MuJoCo · C · Python</strong></div></div></section>
+    <figure class="detail-image contain reveal"><img src="../assets/images/robotic-arm.png" alt="Humanoid robotic arm motion planning visualization" width="852" height="854"></figure>
+    <section class="detail-layout section-shell"><aside class="detail-sidebar reveal"><p>Methods</p><ul><li>DH Modeling</li><li>Inverse Kinematics</li><li>Interpolation</li><li>Simulation</li></ul></aside><article class="detail-body reveal"><h2>From geometry to reliable motion.</h2><p class="lead">The project connects analytical robot modeling with practical trajectory generation, creating a clear path from target pose to executable joint motion.</p><h3>Objective</h3><p>Build and validate a motion-planning workflow for a seven-degree-of-freedom arm, with attention to reachability, smoothness, numerical stability, and the constraints introduced by a physical platform.</p><h3>Approach</h3><p>I modeled the arm using Denavit–Hartenberg parameters, implemented forward and inverse kinematics, and compared candidate solutions across joint limits and pose error. Joint-space and task-space interpolation were then used to produce smooth trajectories.</p><h3>Validation</h3><p>The algorithms were integrated with a MuJoCo model for collision-aware simulation. The implementation combined Python for rapid analysis with C for controller-side execution, supporting repeatable simulation-to-hardware testing.</p></article></section>
+    <a class="detail-next reveal" href="dea-drone.html"><span>Next project</span><strong>Ultra-Lightweight DEA Drone</strong><b>→</b></a>
+  </main>
+  <footer class="site-footer section-shell"><p>© <span class="current-year"></span> Zilin Chen</p><p>Robotics · Control · Intelligent Machines</p><a href="#top">Back to top ↑</a></footer>
+</body>
+</html>
