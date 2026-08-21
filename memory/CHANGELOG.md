@@ -2,6 +2,9 @@
 
 ## 2026-08-21
 
+- Replaced cropped thesis-page screenshots with directly extracted source photographs and simulation frames, removing surrounding Chinese body text and figure labels.
+- Expanded the UAV perching project into a detailed technical case study with quantitative design constraints, system architecture, VSERF operation, visual observability, multi-rate control, simulation, physical results, and limitations.
+- Added a compact results strip and responsive image sequences with bilingual web captions.
 - Added the 2026 graduation thesis as the featured Research project: a flexible perching system for a miniature UAV.
 - Created a bilingual project page covering lightweight system design, VSERF adhesion, AprilTag visual servoing, cascaded control, MuJoCo simulation, and physical validation.
 - Added selected thesis figures beside the corresponding technical narrative and included the complete thesis as a downloadable PDF.

@@ -30,7 +30,7 @@ navLinks?.querySelectorAll('a').forEach((link) => {
 document.querySelector(`[data-nav="${document.body.dataset.page}"]`)?.classList.add('is-active');
 
 const projectMediaPlacements = {
-  'perching-uav': [{ after: 0, media: [0] }, { after: 1, media: [3] }, { after: 2, media: [2] }, { after: 3, media: [1, 4] }],
+  'perching-uav': [{ after: 1, media: [0] }, { after: 2, media: [4] }, { after: 3, media: [3] }, { after: 5, media: [1] }, { after: 6, media: [2] }],
   'robotic-arm': [{ after: 1, media: [0] }, { after: 2, media: [1, 2] }],
   'dea-drone': [{ after: 2, media: [0, 1] }],
   'drone-racing': [{ after: 0, media: [0, 1] }, { after: 1, media: [2] }],

@@ -33,5 +33,5 @@ This is a concise decision record, not a verbatim transcript.
 
 ## Current request
 
-- The 2026 graduation thesis on a flexible perching structure for a miniature UAV has been added as a new featured Research project.
-- Its detail page uses selected figures from the thesis in the relevant sections and offers the complete Chinese thesis as a PDF download.
+- The 2026 graduation-thesis project was revised after feedback that the first image crops included too much Chinese thesis text and that the article was too general.
+- The accepted direction is to use source images extracted directly from the PDF, keep visible explanations in translatable HTML, and present the work as a detailed technical case study rather than a short portfolio summary.
