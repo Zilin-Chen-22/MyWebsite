@@ -17,12 +17,13 @@ Personal research portfolio for Zilin Chen / 陈子林, focused on robotics, con
 - `index.html`: home
 - `about.html`: profile and background
 - `research.html`: project index
-- `projects/*.html`: five project detail pages
+- `projects/*.html`: six project detail pages
 - `skills.html`: technical skills and interests
 - `contact.html`: contact information
 - `assets/images/`: portrait and project images
 - `assets/media/`: original project evidence images and demonstration videos, grouped by project
 - `assets/files/Zilin_Chen_CV.pdf`: downloadable CV
+- `assets/files/Zilin_Chen_Graduation_Thesis_2026.pdf`: downloadable 2026 graduation thesis
 
 ## Accepted design decisions
 
@@ -37,6 +38,7 @@ Personal research portfolio for Zilin Chen / 陈子林, focused on robotics, con
 - The home footer contains a deliberately understated hard-coded `Last modified` date. Update it whenever accepted site content or functionality changes.
 - Original project media is part of the portfolio content and must not be dropped during redesigns or migrations.
 - Project media should appear beside the relevant technical narrative, not as one detached gallery at the end of each page.
+- Graduation-thesis projects should be distilled into readable project narratives, with selected source figures retained as evidence and the complete thesis available as an optional PDF download.
 - Web video uses optimized H.264 MP4 files with `faststart`, poster images, and `preload="none"`; source-quality files remain under `assets/media/intelligent-car/originals/`.
 
 ## Maintenance workflow

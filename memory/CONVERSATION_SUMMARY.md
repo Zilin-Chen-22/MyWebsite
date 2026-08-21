@@ -33,5 +33,5 @@ This is a concise decision record, not a verbatim transcript.
 
 ## Current request
 
-- Preserve all original project images and videos when modernizing the site; a cover-only migration is not sufficient.
-- Show a subtle `Last modified` date on the home page.
+- The 2026 graduation thesis on a flexible perching structure for a miniature UAV has been added as a new featured Research project.
+- Its detail page uses selected figures from the thesis in the relevant sections and offers the complete Chinese thesis as a PDF download.

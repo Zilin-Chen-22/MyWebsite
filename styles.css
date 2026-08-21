@@ -279,6 +279,7 @@ h1 > span { display: block; }
 .project-breadcrumb:hover { color: var(--coral); }
 .project-detail-title { display: grid; gap: clamp(2rem, 6vw, 7rem); grid-template-columns: 1.35fr .65fr; }
 .project-detail-title h1 { font-size: clamp(4rem, 8vw, 8.2rem); line-height: .84; max-width: 1050px; }
+.project-detail-title h1.project-long-title { font-size: clamp(3.4rem, 6.4vw, 6.7rem); line-height: .9; }
 .project-deck { align-self: end; border-top: 1px solid var(--line); color: var(--muted); font-family: var(--serif); font-size: clamp(1.15rem, 1.8vw, 1.4rem); line-height: 1.6; margin: 0; padding-top: 1.3rem; }
 .detail-meta { border-bottom: 1px solid var(--line); border-top: 1px solid var(--line); display: grid; grid-template-columns: repeat(3, 1fr); margin-top: clamp(3rem, 6vw, 5.5rem); }
 .detail-meta div { border-right: 1px solid var(--line); padding: 1.2rem; }
@@ -290,11 +291,14 @@ h1 > span { display: block; }
 .detail-image { background: var(--soft-accent); margin: 0 auto; max-height: 780px; overflow: hidden; width: var(--page); }
 .detail-image img { height: min(62vw, 780px); object-fit: cover; width: 100%; }
 .detail-image.contain img { object-fit: contain; padding: clamp(1.5rem, 4vw, 4rem); }
+.detail-image.perching-hero { background: #dfe5da; }
+.detail-image.perching-hero img { aspect-ratio: 780 / 205; height: auto; object-fit: cover; }
 .detail-layout { display: grid; gap: clamp(3rem, 8vw, 9rem); grid-template-columns: .35fr 1fr; padding-block: clamp(4rem, 9vw, 8rem); }
 .detail-sidebar { align-self: start; position: sticky; top: 110px; }
 .detail-sidebar p { color: var(--coral); font-size: .65rem; font-weight: 700; letter-spacing: .13em; margin: 0 0 1rem; text-transform: uppercase; }
 .detail-sidebar ul { display: flex; flex-wrap: wrap; gap: .5rem; list-style: none; margin: 0; padding: 0; }
 .detail-sidebar li { border: 1px solid var(--line); border-radius: 999px; color: var(--muted); font-size: .67rem; padding: .45rem .7rem; }
+.thesis-download { border-bottom: 1px solid var(--accent); color: var(--accent); display: inline-block; font-size: .7rem; font-weight: 700; letter-spacing: .08em; margin-top: 1.75rem; padding-bottom: .35rem; text-transform: uppercase; }
 .detail-body { max-width: 780px; }
 .detail-body h2 { font-size: clamp(2.5rem, 4.5vw, 4.6rem); letter-spacing: -.045em; line-height: 1; margin: 0 0 1.8rem; }
 .detail-body h3 { font-family: var(--serif); font-size: clamp(1.5rem, 2.4vw, 2.15rem); font-weight: 400; margin: 3.5rem 0 1rem; }

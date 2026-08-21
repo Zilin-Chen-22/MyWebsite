@@ -2,6 +2,9 @@
 
 ## 2026-08-21
 
+- Added the 2026 graduation thesis as the featured Research project: a flexible perching system for a miniature UAV.
+- Created a bilingual project page covering lightweight system design, VSERF adhesion, AprilTag visual servoing, cascaded control, MuJoCo simulation, and physical validation.
+- Added selected thesis figures beside the corresponding technical narrative and included the complete thesis as a downloadable PDF.
 - Redistributed project images and videos into the technical sections they explain instead of collecting them at the bottom.
 - Preserved source-quality intelligent-car videos under `assets/media/intelligent-car/originals/`.
 - Added lower-bitrate H.264 web versions, fast-start metadata, poster images, and deferred loading for smoother playback.
