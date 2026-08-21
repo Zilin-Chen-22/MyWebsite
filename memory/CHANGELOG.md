@@ -1,5 +1,12 @@
 # Website change log
 
+## 2026-08-21
+
+- Redistributed project images and videos into the technical sections they explain instead of collecting them at the bottom.
+- Preserved source-quality intelligent-car videos under `assets/media/intelligent-car/originals/`.
+- Added lower-bitrate H.264 web versions, fast-start metadata, poster images, and deferred loading for smoother playback.
+- Updated the home-page `Last modified` date.
+
 ## 2026-08-19
 
 - Rebuilt the portfolio from scratch as a framework-free static website; removed Hugo dependencies and Hugo branding.

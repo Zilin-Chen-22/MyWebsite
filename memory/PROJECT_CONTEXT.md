@@ -36,6 +36,8 @@ Personal research portfolio for Zilin Chen / 陈子林, focused on robotics, con
 - The language switch sits next to the light/dark control and shows the language available to switch to (`中` or `EN`).
 - The home footer contains a deliberately understated hard-coded `Last modified` date. Update it whenever accepted site content or functionality changes.
 - Original project media is part of the portfolio content and must not be dropped during redesigns or migrations.
+- Project media should appear beside the relevant technical narrative, not as one detached gallery at the end of each page.
+- Web video uses optimized H.264 MP4 files with `faststart`, poster images, and `preload="none"`; source-quality files remain under `assets/media/intelligent-car/originals/`.
 
 ## Maintenance workflow
 

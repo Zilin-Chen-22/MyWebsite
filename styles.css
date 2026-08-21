@@ -305,7 +305,8 @@ h1 > span { display: block; }
 .media-heading { align-items: end; display: grid; gap: clamp(2rem, 7vw, 8rem); grid-template-columns: 1.1fr .9fr; margin-bottom: clamp(2.5rem, 5vw, 4.5rem); }
 .media-heading h2 { font-size: clamp(2.6rem, 5vw, 5.2rem); letter-spacing: -.05em; line-height: .95; margin: 0; }
 .media-heading > p { color: var(--muted); font-family: var(--serif); font-size: 1.15rem; line-height: 1.65; margin: 0; }
-.media-grid { display: grid; gap: 1.2rem; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.media-grid, .inline-media-cluster { display: grid; gap: 1.2rem; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.inline-media-cluster { margin: 2rem 0 3.75rem; }
 .media-card { background: var(--surface-strong); border: 1px solid var(--line); margin: 0; overflow: hidden; }
 .media-card img, .media-card video { background: var(--soft-accent); display: block; max-height: min(76vh, 820px); object-fit: contain; width: 100%; }
 .media-card video { min-height: 320px; }
@@ -451,7 +452,8 @@ h1 > span { display: block; }
   .detail-sidebar { margin-bottom: 3rem; position: static; }
   .media-heading { display: block; }
   .media-heading > p { margin-top: 1.4rem; }
-  .media-grid { display: block; }
+  .media-grid, .inline-media-cluster { display: block; }
+  .inline-media-cluster { margin: 1.6rem 0 3rem; }
   .media-card { margin-bottom: 1rem; }
   .media-card video { min-height: 0; }
   .detail-next { grid-template-columns: 1fr auto; }

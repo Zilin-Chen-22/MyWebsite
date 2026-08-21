@@ -29,6 +29,35 @@ navLinks?.querySelectorAll('a').forEach((link) => {
 
 document.querySelector(`[data-nav="${document.body.dataset.page}"]`)?.classList.add('is-active');
 
+const projectMediaPlacements = {
+  'robotic-arm': [{ after: 1, media: [0] }, { after: 2, media: [1, 2] }],
+  'dea-drone': [{ after: 2, media: [0, 1] }],
+  'drone-racing': [{ after: 0, media: [0, 1] }, { after: 1, media: [2] }],
+  'dual-arm': [{ after: 0, media: [0] }, { after: 1, media: [1, 2, 3] }],
+  'intelligent-car': [{ after: 0, media: [0, 1] }, { after: 1, media: [2] }, { after: 2, media: [3, 4] }]
+};
+
+const projectSlug = window.location.pathname.split('/').pop()?.replace('.html', '');
+const mediaSection = document.querySelector('.project-media');
+const detailBody = document.querySelector('.detail-body');
+const placements = projectMediaPlacements[projectSlug];
+
+if (mediaSection && detailBody && placements) {
+  const headings = [...detailBody.querySelectorAll('h3')];
+  const mediaCards = [...mediaSection.querySelectorAll('.media-card')];
+
+  placements.forEach(({ after, media }) => {
+    const target = headings[after]?.nextElementSibling;
+    if (!target) return;
+    const cluster = document.createElement('div');
+    cluster.className = 'inline-media-cluster';
+    media.forEach((index) => mediaCards[index] && cluster.append(mediaCards[index]));
+    target.after(cluster);
+  });
+
+  mediaSection.remove();
+}
+
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     if (entry.isIntersecting) {
