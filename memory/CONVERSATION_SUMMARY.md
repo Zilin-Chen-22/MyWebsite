@@ -33,5 +33,6 @@ This is a concise decision record, not a verbatim transcript.
 
 ## Current request
 
-- The 2026 graduation-thesis project was revised after feedback that the first image crops included too much Chinese thesis text and that the article was too general.
-- The accepted direction is to use source images extracted directly from the PDF, keep visible explanations in translatable HTML, and present the work as a detailed technical case study rather than a short portfolio summary.
+- Add Education as a primary bilingual page alongside About and Research, showing Tsinghua University and the University of Toronto exchange from the CV.
+- Update the website from student status to graduation in June 2026 and current employment as a Decision & Planning Algorithm Engineer at Beijing Keyi Technology Co., Ltd. from July 2026.
+- Use `chenzili22@outlook.com` as the primary personal email and `zilinchen79@gmail.com` as a secondary address.

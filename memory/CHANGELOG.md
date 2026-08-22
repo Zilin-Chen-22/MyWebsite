@@ -1,5 +1,12 @@
 # Website change log
 
+## 2026-08-22
+
+- Replaced the former Tsinghua student email with `chenzili22@outlook.com` and added `zilinchen79@gmail.com` as a secondary contact.
+- Added Education as a primary bilingual page, covering the Tsinghua University B.E. and University of Toronto exchange semester.
+- Updated the home and About pages to reflect graduation from Tsinghua in June 2026 and the current Decision & Planning Algorithm Engineer role at Beijing Keyi Technology Co., Ltd. from July 2026.
+- Renumbered the primary sections and updated the home portfolio rail and site navigation.
+
 ## 2026-08-21
 
 - Replaced cropped thesis-page screenshots with directly extracted source photographs and simulation frames, removing surrounding Chinese body text and figure labels.

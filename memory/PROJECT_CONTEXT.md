@@ -16,6 +16,7 @@ Personal research portfolio for Zilin Chen / 陈子林, focused on robotics, con
 
 - `index.html`: home
 - `about.html`: profile and background
+- `education.html`: Tsinghua degree and University of Toronto exchange
 - `research.html`: project index
 - `projects/*.html`: six project detail pages
 - `skills.html`: technical skills and interests
@@ -31,11 +32,15 @@ Personal research portfolio for Zilin Chen / 陈子林, focused on robotics, con
 - Desktop navigation begins at the upper left; CV and display controls remain at the right.
 - The `ZILIN CHEN` wordmark is the home link. A separate Home menu item was removed to avoid duplication.
 - Independent pages are preferred over one long scrolling page.
+- Education is a primary navigation page at the same level as About, Research, Skills, and Contact.
 - Research cards link to independent project detail pages.
 - Responsive behavior is required for desktop and mobile.
 - Light/dark preference and English/Chinese preference are stored in browser local storage.
 - The language switch sits next to the light/dark control and shows the language available to switch to (`中` or `EN`).
 - The home footer contains a deliberately understated hard-coded `Last modified` date. Update it whenever accepted site content or functionality changes.
+- Current professional identity: Decision & Planning Algorithm Engineer at Beijing Keyi Technology Co., Ltd., July 2026-present, based in Beijing.
+- Education: B.E. in Mechanical Engineering at Tsinghua University, August 2022-June 2026; exchange at the University of Toronto, September-December 2024.
+- Public email addresses: primary `chenzili22@outlook.com`; secondary `zilinchen79@gmail.com`. Do not restore the former Tsinghua student email to website pages.
 - Original project media is part of the portfolio content and must not be dropped during redesigns or migrations.
 - Project media should appear beside the relevant technical narrative, not as one detached gallery at the end of each page.
 - Graduation-thesis projects should be distilled into readable project narratives, with selected source figures retained as evidence and the complete thesis available as an optional PDF download.
