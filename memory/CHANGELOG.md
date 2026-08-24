@@ -1,5 +1,9 @@
 # Website change log
 
+## 2026-08-24
+
+- Replaced the large mint-green surfaces in dark mode with restrained deep forest tones on the accent Skills panel and Contact page, while retaining lighter green for small interactive accents.
+
 ## 2026-08-22
 
 - Fixed the Education date ranges so each period uses one visual separator instead of a CSS line plus a duplicate dash character.
