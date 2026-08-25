@@ -20,7 +20,8 @@ Personal research portfolio for Zilin Chen / 陈子林, focused on robotics, con
 - `research.html`: project index
 - `projects/*.html`: six project detail pages
 - `skills.html`: technical skills and interests
-- `performances.html`: orchestral, chamber, and solo performance collection with Bilibili previews
+- `performances.html`: orchestral, chamber, and solo performance collection with clickable detail covers and direct Bilibili links
+- `performance.html` + `performance-detail.js`: reusable bilingual recording detail view with player, programme note, and ensemble credits
 - `contact.html`: contact information
 - `assets/images/`: portrait and project images
 - `assets/media/`: original project evidence images and demonstration videos, grouped by project

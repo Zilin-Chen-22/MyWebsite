@@ -33,8 +33,7 @@ This is a concise decision record, not a verbatim transcript.
 
 ## Current request
 
-- Add a primary bilingual “个人演出合集 / Performances” page using 15 supplied Bilibili links.
-- Ignore the user's mnemonic labels and use the official public video titles.
-- Provide lazy in-page Bilibili previews and direct source links without downloading original performance videos.
-- Display only the repertoire title and necessary movement/arrangement details; remove concert, university, and year prefixes. Use standard English titles in English mode and concise Chinese titles in Chinese mode.
-- Show the composer as a separate, visually understated bilingual line beneath each repertoire title.
+- Keep the zoom interaction on performance cover images, but make each cover open a dedicated detail view.
+- Remove Preview buttons from the collection cards while retaining the direct Bilibili button.
+- Each detail view provides the embedded recording, a substantial bilingual programme note, event context, and performer credits.
+- Performer names and roles come from public source-video credits; where a source omits the complete lineup, show only confirmed information and state that the remaining credits are unavailable.

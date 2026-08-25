@@ -410,15 +410,15 @@
     "06 / Performances": "06 / 个人演出",
     "Music,": "音乐，",
     "on stage.": "在舞台上。",
-    "A personal archive of orchestral, chamber, and solo performances. Preview a recording here or continue on Bilibili.": "收录我的管弦乐、室内乐与独奏舞台演出，可在本页预览或前往哔哩哔哩观看。",
+    "A personal archive of orchestral, chamber, and solo performances. Open a cover for the recording, programme note, and ensemble credits.": "收录我的管弦乐、室内乐与独奏舞台演出。点击封面可观看录像，并阅读曲目介绍与演出者信息。",
     "Performance collection": "个人演出合集",
     "Performances — Zilin Chen": "个人演出 — 陈子林",
     "A collection of orchestral, chamber, and solo performances featuring Zilin Chen.": "陈子林的管弦乐、室内乐与独奏演出合集。",
     "Orchestral, chamber, and solo recordings": "管弦乐、室内乐与独奏录像",
-    "Preview": "预览",
-    "Close preview": "关闭预览",
     "Open on Bilibili ↗": "前往哔哩哔哩 ↗",
     "Performance video cover": "演出视频封面",
+    "View performance details": "查看演出详情",
+    "View performance →": "查看演出 →",
     "Chamber music": "室内乐",
     "Double bass ensemble": "低音提琴重奏",
     "Concerto": "协奏曲",
@@ -521,6 +521,7 @@
     languageButton.textContent = selected === "zh" ? "EN" : "中";
     languageButton.setAttribute("aria-label", selected === "zh" ? "Switch to English" : "切换到中文");
     languageButton.title = selected === "zh" ? "Switch to English" : "切换到中文";
+    window.dispatchEvent(new CustomEvent("zilin-language-change", { detail: { language: selected } }));
   };
 
   let language = localStorage.getItem("zilin-language") === "zh" ? "zh" : "en";
