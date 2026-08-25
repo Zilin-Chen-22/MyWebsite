@@ -37,3 +37,4 @@ This is a concise decision record, not a verbatim transcript.
 - Ignore the user's mnemonic labels and use the official public video titles.
 - Provide lazy in-page Bilibili previews and direct source links without downloading original performance videos.
 - Display only the repertoire title and necessary movement/arrangement details; remove concert, university, and year prefixes. Use standard English titles in English mode and concise Chinese titles in Chinese mode.
+- Show the composer as a separate, visually understated bilingual line beneath each repertoire title.

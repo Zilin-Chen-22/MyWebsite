@@ -8,6 +8,7 @@
 - Added the performance collection to the home portfolio rail, advanced Contact to section 07, and updated the home `Last modified` date.
 - Extended the responsive navigation and performance-card layout for desktop and mobile widths.
 - Replaced event-style Bilibili upload titles with concise repertoire names: standard English titles in the English interface and clean Chinese work titles in the Chinese interface.
+- Added a subdued bilingual composer line below every performance title.
 
 ## 2026-08-24
 

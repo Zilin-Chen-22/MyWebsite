@@ -459,7 +459,18 @@
     ", Op. 21: I. Allegro moderato, tranquillo": "，Op. 21：第一乐章",
     "Five Pieces for Two Violins and Piano": "《五首双小提琴与钢琴小品》",
     "Cinema Paradiso": "《天堂电影院》",
-    "(arr. for Trio)": "（三重奏改编）"
+    "(arr. for Trio)": "（三重奏改编）",
+    "Giovanni Bottesini": "乔瓦尼·波泰西尼",
+    "Jean Sibelius": "让·西贝柳斯",
+    "Dmitri Shostakovich": "德米特里·肖斯塔科维奇",
+    "Wolfgang Amadeus Mozart": "沃尔夫冈·阿马德乌斯·莫扎特",
+    "Johann Nepomuk Hummel": "约翰·内波穆克·胡梅尔",
+    "Franz & Karl Doppler": "弗朗茨·多普勒、卡尔·多普勒",
+    "Franz Schubert": "弗朗茨·舒伯特",
+    "Colin Brumby": "科林·布鲁姆比",
+    "Johannes Brahms": "约翰内斯·勃拉姆斯",
+    "Herbert Howells": "赫伯特·豪威尔斯",
+    "Ennio & Andrea Morricone": "埃尼奥·莫里康内、安德烈亚·莫里康内"
   };
 
   const originalText = new WeakMap();
