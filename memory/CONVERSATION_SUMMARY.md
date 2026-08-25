@@ -13,7 +13,7 @@ This is a concise decision record, not a verbatim transcript.
 ## Information architecture
 
 - The user prefers separate pages rather than one continuous long page.
-- Primary pages are Home, About, Research, Skills, and Contact.
+- Primary pages are Home, About, Education, Research, Skills, Performances, and Contact.
 - Research projects require a second level of independent detail pages.
 - Search and display controls should remain on the right side of the navigation.
 - The unclear `ZC / 22` label and duplicate Home link were questioned. The accepted solution is a clear `ZILIN CHEN` wordmark as the home entry, with no separate Home menu item.
@@ -33,6 +33,6 @@ This is a concise decision record, not a verbatim transcript.
 
 ## Current request
 
-- Add Education as a primary bilingual page alongside About and Research, showing Tsinghua University and the University of Toronto exchange from the CV.
-- Update the website from student status to graduation in June 2026 and current employment as a Decision & Planning Algorithm Engineer at Beijing Keyi Technology Co., Ltd. from July 2026.
-- Use `chenzili22@outlook.com` as the primary personal email and `zilinchen79@gmail.com` as a secondary address.
+- Add a primary bilingual “个人演出合集 / Performances” page using 15 supplied Bilibili links.
+- Ignore the user's mnemonic labels and use the official public video titles.
+- Provide lazy in-page Bilibili previews and direct source links without downloading original performance videos.

@@ -70,3 +70,37 @@ const observer = new IntersectionObserver((entries) => {
 
 document.querySelectorAll('.reveal').forEach((element) => observer.observe(element));
 document.querySelectorAll('.current-year').forEach((element) => { element.textContent = new Date().getFullYear(); });
+
+const performanceCards = [...document.querySelectorAll('.performance-card')];
+const closePerformance = (card) => {
+  const player = card?.querySelector('.performance-player');
+  const button = card?.querySelector('.performance-preview');
+  if (!player || !button) return;
+  player.replaceChildren();
+  player.hidden = true;
+  button.setAttribute('aria-expanded', 'false');
+  button.textContent = document.documentElement.lang.startsWith('zh') ? '预览' : 'Preview';
+};
+
+performanceCards.forEach((card) => {
+  const button = card.querySelector('.performance-preview');
+  const player = card.querySelector('.performance-player');
+  button?.addEventListener('click', () => {
+    const isOpen = button.getAttribute('aria-expanded') === 'true';
+    performanceCards.forEach((otherCard) => closePerformance(otherCard));
+    if (isOpen || !player) return;
+
+    const iframe = document.createElement('iframe');
+    iframe.src = `https://player.bilibili.com/player.html?bvid=${encodeURIComponent(card.dataset.bvid)}&page=1&high_quality=1&danmaku=0&autoplay=0`;
+    iframe.title = card.dataset.title || 'Bilibili performance player';
+    iframe.loading = 'lazy';
+    iframe.allow = 'autoplay; fullscreen; picture-in-picture';
+    iframe.allowFullscreen = true;
+    iframe.referrerPolicy = 'no-referrer';
+    player.replaceChildren(iframe);
+    player.hidden = false;
+    button.setAttribute('aria-expanded', 'true');
+    button.textContent = document.documentElement.lang.startsWith('zh') ? '关闭预览' : 'Close preview';
+    player.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  });
+});

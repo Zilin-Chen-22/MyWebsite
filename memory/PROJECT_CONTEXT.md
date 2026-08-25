@@ -20,6 +20,7 @@ Personal research portfolio for Zilin Chen / 陈子林, focused on robotics, con
 - `research.html`: project index
 - `projects/*.html`: six project detail pages
 - `skills.html`: technical skills and interests
+- `performances.html`: orchestral, chamber, and solo performance collection with Bilibili previews
 - `contact.html`: contact information
 - `assets/images/`: portrait and project images
 - `assets/media/`: original project evidence images and demonstration videos, grouped by project
@@ -33,6 +34,7 @@ Personal research portfolio for Zilin Chen / 陈子林, focused on robotics, con
 - The `ZILIN CHEN` wordmark is the home link. A separate Home menu item was removed to avoid duplication.
 - Independent pages are preferred over one long scrolling page.
 - Education is a primary navigation page at the same level as About, Research, Skills, and Contact.
+- Performances is a primary navigation page. Recordings use click-to-load Bilibili embeds plus direct source links; original videos are not downloaded into the repository.
 - Research cards link to independent project detail pages.
 - Responsive behavior is required for desktop and mobile.
 - Light/dark preference and English/Chinese preference are stored in browser local storage.

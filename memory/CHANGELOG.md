@@ -1,5 +1,13 @@
 # Website change log
 
+## 2026-08-25
+
+- Added a bilingual Performances page as a primary section alongside Education, Research, and Skills.
+- Verified and catalogued 15 public performance titles from their Bilibili records, using the source cover images and canonical video links.
+- Added click-to-load Bilibili previews that keep only one embedded player active at a time; no original performance videos were downloaded.
+- Added the performance collection to the home portfolio rail, advanced Contact to section 07, and updated the home `Last modified` date.
+- Extended the responsive navigation and performance-card layout for desktop and mobile widths.
+
 ## 2026-08-24
 
 - Replaced the large mint-green surfaces in dark mode with restrained deep forest tones on the accent Skills panel and Contact page, while retaining lighter green for small interactive accents.
