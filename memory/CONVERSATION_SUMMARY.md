@@ -36,4 +36,5 @@ This is a concise decision record, not a verbatim transcript.
 - Keep the zoom interaction on performance cover images, but make each cover open a dedicated detail view.
 - Remove Preview buttons from the collection cards while retaining the direct Bilibili button.
 - Each detail view provides the embedded recording, a substantial bilingual programme note, event context, and performer credits.
-- Performer names and roles come from public source-video credits; where a source omits the complete lineup, show only confirmed information and state that the remaining credits are unavailable.
+- Performer names and roles use the public credits plus Zilin's authoritative roster corrections for performances 01, 02, 06, 07, and 10; no missing-credit disclaimer should be shown.
+- Language switching on a performance detail page must redraw bilingual content and immediately preserve its visible state, without requiring a refresh.

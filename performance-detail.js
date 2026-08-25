@@ -6,7 +6,7 @@
       composer: ["Giovanni Bottesini", "乔瓦尼·波泰西尼"],
       setting: ["Tsinghua Symphony · Reappearance Chamber Concert · 2023", "清华交响 · “再现”室内乐音乐会 · 2023"],
       note: ["Bottesini transforms melodies from Bellini's opera La sonnambula into a virtuoso concert fantasy. Long, vocal lines preserve the opera's bel canto character, while rapid passagework, harmonics, and wide-register leaps reveal the double bass as an agile solo voice rather than only an orchestral foundation.", "波泰西尼从贝里尼歌剧《梦游女》中提取旋律，写成一首炫技性的音乐会幻想曲。悠长的歌唱性乐句保留了歌剧的美声气质，而快速音群、泛音与跨音区跳跃，则让低音提琴从乐队低声部转变为灵活而富有戏剧性的独奏声部。"],
-      performers: [["Zilin Chen", "Double bass", true]], credit: ["Additional performers are not listed in the source video.", "原视频未列出其他演奏者。"]
+      performers: [["Zilin Chen", "Piano", true], ["Wang Tiantian", "Double bass"]]
     },
     BV1DjMwzZECk: {
       number: "02", category: ["Double bass ensemble", "低音提琴重奏"],
@@ -14,7 +14,7 @@
       composer: ["Jean Sibelius", "让·西贝柳斯"],
       setting: ["Tsinghua Symphony · Reappearance Chamber Concert · 2023", "清华交响 · “再现”室内乐音乐会 · 2023"],
       note: ["Sibelius's tone poem moves from a tense, dark opening toward a broad hymn-like melody. In this six-double-bass arrangement, the instrument's full range carries both the weight of the brass-inspired writing and the warmth of the central chorale, turning one orchestral color into a layered ensemble sound.", "西贝柳斯的交响诗从紧张、深沉的开端推进至宽广如赞歌般的旋律。六把低音提琴的改编利用乐器完整的音域，既承载原作中近似铜管的厚重力量，也保留中段圣咏的温暖，使单一乐器形成层次丰富的乐队音响。"],
-      performers: [["Zilin Chen", "Double bass", true]], credit: ["Performed as a double bass sextet; the source video does not list the complete personnel.", "低音提琴六重奏演出；原视频未列出完整成员名单。"]
+      performers: [["Zilin Chen", "Double bass", true]]
     },
     BV1AWpGexE44: {
       number: "03", category: ["Chamber music", "室内乐"],
@@ -46,7 +46,7 @@
       composer: ["Giovanni Bottesini", "乔瓦尼·波泰西尼"],
       setting: ["Tsinghua Symphony · Song of the Night Chamber Concert · 2025", "清华交响 · “夜之歌”室内乐音乐会 · 2025"],
       note: ["The first movement of Bottesini's Gran Duo No. 1 treats the double bass as a lyrical and athletic solo instrument. This three-bass version redistributes the original dialogue across an additional voice, expanding the harmony while preserving the quick exchanges, operatic phrasing, and technical sparkle of the Allegro.", "波泰西尼《第一低音提琴二重奏》的第一乐章，把低音提琴同时作为歌唱性与技巧性的独奏乐器。本次三重奏改编将原有对话分配给第三个声部，在扩展和声厚度的同时，保留快板中敏捷的呼应、歌剧式乐句与炫技色彩。"],
-      performers: [["Zilin Chen", "Double bass", true]], credit: ["Performed in a three-double-bass arrangement; the source video does not list the complete personnel.", "采用三把低音提琴改编演出；原视频未列出完整成员名单。"]
+      performers: [["Wang Tiantian", "Double bass"], ["Min Qincheng", "Double bass"], ["Zilin Chen", "Double bass", true]]
     },
     BV1Gcj1zMEY6: {
       number: "07", category: ["Concertante", "协奏曲"],
@@ -54,7 +54,7 @@
       composer: ["Giovanni Bottesini", "乔瓦尼·波泰西尼"],
       setting: ["Tsinghua Symphony · Song of the Night Chamber Concert · 2025", "清华交响 · “夜之歌”室内乐音乐会 · 2025"],
       note: ["Bottesini gives violin and double bass equal dramatic weight in this A-minor concert duo. The two solo lines imitate, challenge, and support one another across contrasting registers, while the piano supplies the orchestral foundation. The result combines operatic melody with the brilliance of a double concerto.", "波泰西尼在这部a小调音乐会二重奏中，赋予小提琴与低音提琴同等的戏剧分量。两个独奏声部跨越鲜明音区，相互模仿、竞逐与支撑，钢琴则承担乐队基础；作品由此把歌剧性的旋律与双协奏曲般的华丽技巧结合起来。"],
-      performers: [["Zilin Chen", "Double bass", true]], credit: ["Scored for violin, double bass, and piano; the source video does not list the other performers.", "作品编制为小提琴、低音提琴与钢琴；原视频未列出其他演奏者。"]
+      performers: [["Che Wanyu", "Violin"], ["Wang Tiantian", "Cello part · performed on double bass"], ["Zilin Chen", "Piano", true]]
     },
     BV19KKJzrE7x: {
       number: "08", category: ["Chamber music", "室内乐"],
@@ -78,7 +78,7 @@
       composer: ["Colin Brumby", "科林·布鲁姆比"],
       setting: ["Tsinghua Symphony · Resonance Chamber Concert · 2026", "清华交响 · “共鸣”室内乐音乐会 · 2026"],
       note: ["Brumby's suite explores the double-bass quartet as a complete chamber ensemble. Independent lines move between melody, inner counterpoint, rhythmic punctuation, and bass foundation, highlighting the instrument's contrasting registers and its ability to create both transparent textures and a resonant collective sound.", "布鲁姆比的组曲把低音提琴四重奏视为完整的室内乐组合。四个独立声部在旋律、内声部对位、节奏点缀与低音基础之间转换，展现低音提琴不同音区的反差，以及它同时塑造透明织体与浑厚共鸣的能力。"],
-      performers: [["Zilin Chen", "Double bass", true]], credit: ["Performed as a double bass quartet; the source video does not list the complete personnel.", "低音提琴四重奏演出；原视频未列出完整成员名单。"]
+      performers: [["Wang Tiantian", "Double bass"], ["Min Qincheng", "Double bass"], ["Zilin Chen", "Double bass", true], ["Li Qiaoyi", "Double bass"]]
     },
     BV1BbjR6fECy: {
       number: "11", category: ["Concert piece", "音乐会作品"],
@@ -122,13 +122,14 @@
     }
   };
 
-  const roleZh = { "Double bass": "低音提琴", "Piano": "钢琴", "Flute": "长笛", "Clarinet": "单簧管", "Harp": "竖琴", "Oboe": "双簧管", "Horn": "圆号", "Viola": "中提琴", "Cello": "大提琴", "Flute I": "第一长笛", "Flute II": "第二长笛", "Violin": "小提琴", "Violin I": "第一小提琴", "Violin II": "第二小提琴" };
-  const nameZh = { "Zilin Chen": "陈子林", "Chang Xinran": "常欣然", "Wang Qiyao": "王启尧", "Zhan Ran": "展然", "Zou Xiaotong": "邹箫桐", "Diao Zeyuan": "刁泽原", "Zhao Boyuan": "赵博渊", "Chen Tianle": "陈天乐", "Wang Tiantian": "王天天", "Min Qincheng": "闵勤承", "Wang Meixuan": "王美璇", "Xu Weixi": "徐微曦", "Jin Kaixuan": "金愷暄", "Wang Zhihao": "王智豪", "Li Tianmeng": "黎天盟", "Wang Jiahui": "王嘉慧", "Yang Huhao": "杨胡灏" };
+  const roleZh = { "Double bass": "低音提琴", "Piano": "钢琴", "Flute": "长笛", "Clarinet": "单簧管", "Harp": "竖琴", "Oboe": "双簧管", "Horn": "圆号", "Viola": "中提琴", "Cello": "大提琴", "Flute I": "第一长笛", "Flute II": "第二长笛", "Violin": "小提琴", "Violin I": "第一小提琴", "Violin II": "第二小提琴", "Cello part · performed on double bass": "大提琴声部（低音提琴代替）" };
+  const nameZh = { "Zilin Chen": "陈子林", "Chang Xinran": "常欣然", "Wang Qiyao": "王启尧", "Zhan Ran": "展然", "Zou Xiaotong": "邹箫桐", "Diao Zeyuan": "刁泽原", "Zhao Boyuan": "赵博渊", "Chen Tianle": "陈天乐", "Wang Tiantian": "王天天", "Min Qincheng": "闵勤承", "Wang Meixuan": "王美璇", "Xu Weixi": "徐微曦", "Jin Kaixuan": "金愷暄", "Wang Zhihao": "王智豪", "Li Tianmeng": "黎天盟", "Wang Jiahui": "王嘉慧", "Yang Huhao": "杨胡灏", "Che Wanyu": "车宛钰", "Li Qiaoyi": "李巧艺" };
   const order = Object.keys(performances);
   const id = new URLSearchParams(window.location.search).get("id");
   const performance = performances[id];
   const mount = document.querySelector("#performance-detail");
   if (!mount) return;
+  let hasRendered = false;
 
   const escapeHtml = (value) => String(value).replace(/[&<>"]/g, (character) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[character]);
   const render = () => {
@@ -137,6 +138,7 @@
     if (!performance) {
       document.title = zh ? "未找到演出 — 陈子林" : "Performance not found — Zilin Chen";
       mount.innerHTML = `<section class="performance-not-found section-shell"><p class="section-kicker">${zh ? "个人演出合集" : "Performance archive"}</p><h1>${zh ? "没有找到这场演出。" : "This performance could not be found."}</h1><a href="performances.html">${zh ? "← 返回全部演出" : "← All performances"}</a></section>`;
+      hasRendered = true;
       return;
     }
 
@@ -163,8 +165,10 @@
         <aside class="performance-facts reveal"><p class="section-kicker">${zh ? "演出信息" : "At a glance"}</p><dl><div><dt>${zh ? "曲目类型" : "Format"}</dt><dd>${escapeHtml(performance.category[language])}</dd></div><div><dt>${zh ? "演出场合" : "Setting"}</dt><dd>${escapeHtml(performance.setting[language])}</dd></div><div><dt>${zh ? "视频来源" : "Recording"}</dt><dd>Bilibili · ${id}</dd></div></dl></aside>
         <article class="performance-note reveal"><p class="section-kicker">${zh ? "曲目介绍" : "Programme note"}</p><h2>${zh ? "关于这部作品" : "About the work"}</h2><p>${escapeHtml(performance.note[language])}</p></article>
       </section>
-      <section class="performance-performers section-shell reveal"><div class="performance-performers-heading"><div><p class="section-kicker">${zh ? "舞台人员" : "On stage"}</p><h2>${zh ? "演出者" : "Performers"}</h2></div><p>${zh ? "姓名与声部依据原视频公开信息整理。" : "Names and roles follow the public credits in the source recording."}</p></div><div class="performer-grid">${people}</div>${performance.credit ? `<p class="performance-credit-note">${escapeHtml(performance.credit[language])}</p>` : ""}</section>
+      <section class="performance-performers section-shell reveal"><div class="performance-performers-heading"><div><p class="section-kicker">${zh ? "舞台人员" : "On stage"}</p><h2>${zh ? "演出者" : "Performers"}</h2></div><p>${zh ? "本场演出的演奏者与对应声部。" : "Players and instruments for this performance."}</p></div><div class="performer-grid">${people}</div></section>
       <nav class="performance-pagination section-shell reveal" aria-label="${zh ? "其他演出" : "More performances"}"><a href="performance.html?id=${previous}"><span>${zh ? "上一场" : "Previous"}</span><strong>← ${escapeHtml(performances[previous].title[language])}</strong></a><a href="performance.html?id=${next}"><span>${zh ? "下一场" : "Next"}</span><strong>${escapeHtml(performances[next].title[language])} →</strong></a></nav>`;
+    if (hasRendered) mount.querySelectorAll(".reveal").forEach((element) => element.classList.add("is-visible"));
+    hasRendered = true;
   };
 
   render();

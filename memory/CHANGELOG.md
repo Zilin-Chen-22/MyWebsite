@@ -2,9 +2,11 @@
 
 ## 2026-08-25
 
+- Corrected the performer rosters for recordings 01, 02, 06, 07, and 10 from Zilin's supplied credits, and removed all incomplete-source disclaimers.
+- Fixed performance-detail language switching so newly translated sections remain visible without refreshing the page.
 - Replaced the performance-list Preview buttons with clickable, zooming covers while retaining direct Bilibili links.
 - Added a reusable bilingual performance detail page for all 15 recordings, with an embedded player, programme note, concert context, credited performers, and previous/next navigation.
-- Used public source-video credits for performer names and marked incomplete source credits instead of inventing missing personnel.
+- Added performer names and instrument roles to every performance detail.
 - Added a bilingual Performances page as a primary section alongside Education, Research, and Skills.
 - Verified and catalogued 15 public performance titles from their Bilibili records, using the source cover images and canonical video links.
 - Added click-to-load Bilibili previews that keep only one embedded player active at a time; no original performance videos were downloaded.
