@@ -7,6 +7,7 @@
 - Added click-to-load Bilibili previews that keep only one embedded player active at a time; no original performance videos were downloaded.
 - Added the performance collection to the home portfolio rail, advanced Contact to section 07, and updated the home `Last modified` date.
 - Extended the responsive navigation and performance-card layout for desktop and mobile widths.
+- Replaced event-style Bilibili upload titles with concise repertoire names: standard English titles in the English interface and clean Chinese work titles in the Chinese interface.
 
 ## 2026-08-24
 

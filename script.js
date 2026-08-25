@@ -92,7 +92,7 @@ performanceCards.forEach((card) => {
 
     const iframe = document.createElement('iframe');
     iframe.src = `https://player.bilibili.com/player.html?bvid=${encodeURIComponent(card.dataset.bvid)}&page=1&high_quality=1&danmaku=0&autoplay=0`;
-    iframe.title = card.dataset.title || 'Bilibili performance player';
+    iframe.title = card.querySelector('h2')?.textContent.trim() || card.dataset.title || 'Bilibili performance player';
     iframe.loading = 'lazy';
     iframe.allow = 'autoplay; fullscreen; picture-in-picture';
     iframe.allowFullscreen = true;
