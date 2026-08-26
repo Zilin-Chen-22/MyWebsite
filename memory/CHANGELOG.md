@@ -2,9 +2,11 @@
 
 ## 2026-08-26
 
+- The user confirmed successful inline playback on iPhone Safari in the compatibility test. Applied that public mobile-player endpoint to all 15 performance details, retained the Bilibili source links, and fixed the player container at 16:9 without reveal transforms.
+- Omitted the mobile endpoint's autoplay parameter (any non-empty value enables autoplay), added refreshed asset URLs for returning visitors, and updated the homepage modification date.
 - Investigated iPhone Safari black screens in Bilibili performance embeds. The user confirmed the standalone official player can play the same video, but prefers to keep inline playback.
 - Tested the alternate public Bilibili HTML5 mobile embed: it displayed a poster and advanced playback inside a cross-origin iframe in the available desktop browser; this is not an iPhone verification.
-- Added an unlisted, noindex `performance-embed-test.html` for a same-site iPhone Safari check. Existing performance details are unchanged pending that check. No video files were downloaded or rehosted.
+- Added an unlisted, noindex `performance-embed-test.html` for a same-site iPhone Safari check before the production rollout. No video files were downloaded or rehosted.
 
 ## 2026-08-25
 

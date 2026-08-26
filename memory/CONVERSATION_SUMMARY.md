@@ -38,5 +38,5 @@ This is a concise decision record, not a verbatim transcript.
 - Each detail view provides the embedded recording, a substantial bilingual programme note, event context, and performer credits.
 - Performer names and roles use the public credits plus Zilin's authoritative roster corrections for performances 01, 02, 06, 07, and 10; no missing-credit disclaimer should be shown.
 - Language switching on a performance detail page must redraw bilingual content and immediately preserve its visible state, without requiring a refresh.
-- On iPhone Safari, the existing embedded player is black but the standalone Bilibili player works. The user explicitly prefers inline playback without downloading videos or switching to an external page.
-- A separate noindex `performance-embed-test.html` tests Bilibili's public `html5mobileplayer.html` endpoint on the same GitHub Pages site. Desktop cross-origin playback was verified; wait for the user's iPhone Safari result before replacing production embeds.
+- The original player was black when embedded on iPhone Safari. The user explicitly prefers inline playback without downloading videos or switching to an external page.
+- The user confirmed that the separate noindex `performance-embed-test.html` works on iPhone Safari. Its public Bilibili `html5mobileplayer.html` endpoint is now used across all 15 performance details, with the same fixed 16:9 frame. Omit the autoplay parameter entirely for this endpoint.

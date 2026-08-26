@@ -398,7 +398,8 @@ h1 > span { display: block; }
 .performance-detail-composer a { align-self: flex-start; border-bottom: 1px solid var(--ink); font-size: .67rem; font-weight: 700; letter-spacing: .08em; padding-bottom: .35rem; text-transform: uppercase; }
 .performance-detail-composer a:hover { border-color: var(--coral); color: var(--coral); }
 .performance-video { background: #080d0b; box-shadow: var(--shadow); }
-.performance-video iframe { aspect-ratio: 16 / 9; border: 0; display: block; width: 100%; }
+.performance-video-frame { height: 0; padding-bottom: 56.25%; position: relative; }
+.performance-video iframe { border: 0; display: block; height: 100%; inset: 0; position: absolute; width: 100%; }
 .performance-story { border-bottom: 1px solid var(--line); display: grid; gap: clamp(3rem, 8vw, 9rem); grid-template-columns: minmax(240px, .55fr) minmax(0, 1.45fr); padding-block: clamp(4.5rem, 9vw, 8rem); }
 .performance-facts dl { margin: 1.8rem 0 0; }
 .performance-facts dl div { border-top: 1px solid var(--line); padding: 1rem 0; }

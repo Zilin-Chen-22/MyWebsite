@@ -148,7 +148,9 @@
     const next = order[(index + 1) % order.length];
     const people = performance.performers.map(([name, role, featured]) => `<article class="performer${featured ? " performer-featured" : ""}"><span>${escapeHtml(zh ? (nameZh[name] || name) : name)}</span><strong>${escapeHtml(zh ? (roleZh[role] || role) : role)}</strong>${featured ? `<em>${zh ? "本人演出" : "Zilin's role"}</em>` : ""}</article>`).join("");
     const sourceUrl = `https://www.bilibili.com/video/${id}/`;
-    const playerUrl = `https://player.bilibili.com/player.html?bvid=${encodeURIComponent(id)}&page=1&high_quality=1&danmaku=0&autoplay=0`;
+    // This mobile endpoint treats any autoplay value (even "0" or "false") as true.
+    // Omit autoplay so playback starts only when the visitor presses play.
+    const playerUrl = `https://www.bilibili.com/blackboard/html5mobileplayer.html?bvid=${encodeURIComponent(id)}&p=1&danmaku=0`;
 
     mount.innerHTML = `
       <section class="performance-detail-hero section-shell reveal">
@@ -158,8 +160,8 @@
           <div class="performance-detail-composer"><span>${zh ? "作曲家" : "Composer"}</span><strong>${escapeHtml(performance.composer[language])}</strong><a href="${sourceUrl}" target="_blank" rel="noopener">${zh ? "前往哔哩哔哩 ↗" : "Open on Bilibili ↗"}</a></div>
         </div>
       </section>
-      <section class="performance-video section-shell reveal" aria-label="${zh ? "演出视频" : "Performance video"}">
-        <iframe src="${playerUrl}" title="${escapeHtml(performance.title[language])}" loading="eager" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen referrerpolicy="no-referrer"></iframe>
+      <section class="performance-video section-shell" aria-label="${zh ? "演出视频" : "Performance video"}">
+        <div class="performance-video-frame"><iframe src="${playerUrl}" title="${escapeHtml(performance.title[language])}" loading="eager" scrolling="no" allow="fullscreen; picture-in-picture" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
       </section>
       <section class="performance-story section-shell">
         <aside class="performance-facts reveal"><p class="section-kicker">${zh ? "演出信息" : "At a glance"}</p><dl><div><dt>${zh ? "曲目类型" : "Format"}</dt><dd>${escapeHtml(performance.category[language])}</dd></div><div><dt>${zh ? "演出场合" : "Setting"}</dt><dd>${escapeHtml(performance.setting[language])}</dd></div><div><dt>${zh ? "视频来源" : "Recording"}</dt><dd>Bilibili · ${id}</dd></div></dl></aside>
