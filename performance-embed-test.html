@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="B站官方移动播放器的站内嵌入兼容性测试，不下载或转存视频。">
+  <title>视频嵌入测试 — 陈子林</title>
+  <link rel="icon" href="assets/images/zilin-chen.jpg">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .embed-test { max-width: 1000px; padding-block: 2rem 4rem; }
+    .embed-test > a { color: var(--muted); font-size: .8rem; }
+    .embed-test .section-kicker { margin-top: 3rem; }
+    .embed-test h1 { font-family: var(--sans); font-size: clamp(1.7rem, 5vw, 3rem); font-weight: 600; letter-spacing: -.025em; line-height: 1.35; }
+    .embed-test h2 { font-family: var(--sans); font-size: 1.05rem; line-height: 1.65; margin: 2rem 0 .5rem; }
+    .embed-test p { color: var(--muted); line-height: 1.8; }
+    .embed-test-frame { background: #080d0b; height: 0; margin-top: 2rem; padding-bottom: 56.25%; position: relative; }
+    .embed-test-frame iframe { border: 0; display: block; height: 100%; inset: 0; position: absolute; width: 100%; }
+    .embed-test-note { border-top: 1px solid var(--line); font-size: .85rem; margin-top: 2rem; padding-top: 1rem; }
+  </style>
+</head>
+<body>
+  <main class="embed-test section-shell">
+    <a href="performances.html">← 返回个人演出合集</a>
+    <p class="section-kicker">站内播放 · iPhone Safari 兼容性测试</p>
+    <h1>不跳转，直接在这里播放。</h1>
+    <p>请点击下方播放器中央的播放键。本页使用另一套 B 站官方移动播放器，不下载或转存视频，也不会自动跳转到外部页面。</p>
+    <div class="embed-test-frame">
+      <!-- This public mobile endpoint treats any autoplay value, including "0", as true. Omit it to require a user gesture. -->
+      <iframe title="《贝里尼“梦游女”主题幻想曲》演出录像" src="https://www.bilibili.com/blackboard/html5mobileplayer.html?bvid=BV1Nu411e74Z&amp;p=1&amp;danmaku=0" scrolling="no" allow="fullscreen; picture-in-picture" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    </div>
+    <h2>《贝里尼“梦游女”主题幻想曲》</h2>
+    <p>作曲：乔瓦尼·波泰西尼<br>钢琴：陈子林 · 低音提琴：王天天</p>
+    <p class="embed-test-note">请确认：点击后能否出现画面、播放进度是否前进，以及是否仍停留在本页。播放器应始终保持横向 16:9，不应竖着撑满整页。现有演出详情页暂未改动。</p>
+  </main>
+</body>
+</html>

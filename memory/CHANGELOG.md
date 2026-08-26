@@ -1,5 +1,11 @@
 # Website change log
 
+## 2026-08-26
+
+- Investigated iPhone Safari black screens in Bilibili performance embeds. The user confirmed the standalone official player can play the same video, but prefers to keep inline playback.
+- Tested the alternate public Bilibili HTML5 mobile embed: it displayed a poster and advanced playback inside a cross-origin iframe in the available desktop browser; this is not an iPhone verification.
+- Added an unlisted, noindex `performance-embed-test.html` for a same-site iPhone Safari check. Existing performance details are unchanged pending that check. No video files were downloaded or rehosted.
+
 ## 2026-08-25
 
 - Corrected the performer rosters for recordings 01, 02, 06, 07, and 10 from Zilin's supplied credits, and removed all incomplete-source disclaimers.
