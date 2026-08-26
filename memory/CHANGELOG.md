@@ -2,6 +2,9 @@
 
 ## 2026-08-26
 
+- The user preferred the original desktop Bilibili player. Restored `player.bilibili.com/player.html` for desktop/non-iOS visitors while retaining the verified compatibility player on iPhone/iPad (including iPad desktop mode). Kept the fixed 16:9 frame; narrow desktop windows do not trigger the iOS player. Automated coverage now checks all 15 recordings in both languages across eight device profiles.
+- Replaced the home portrait with the user-supplied white-shirt photograph as `zilin-chen-2026.jpg`, preserving the old photo and the new photo's natural colors.
+- Replaced portrait favicons on all 15 HTML pages with a forest-green/ivory ZC monogram and a small coral accent. Added 32px/64px browser icons, a 180px Apple touch icon, and an optional macOS regeneration script; no website build step was added.
 - The user confirmed successful inline playback on iPhone Safari in the compatibility test. Applied that public mobile-player endpoint to all 15 performance details, retained the Bilibili source links, and fixed the player container at 16:9 without reveal transforms.
 - Omitted the mobile endpoint's autoplay parameter (any non-empty value enables autoplay), added refreshed asset URLs for returning visitors, and updated the homepage modification date.
 - Investigated iPhone Safari black screens in Bilibili performance embeds. The user confirmed the standalone official player can play the same video, but prefers to keep inline playback.

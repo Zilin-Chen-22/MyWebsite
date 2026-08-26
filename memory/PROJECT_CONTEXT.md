@@ -36,7 +36,9 @@ Personal research portfolio for Zilin Chen / 陈子林, focused on robotics, con
 - Independent pages are preferred over one long scrolling page.
 - Education is a primary navigation page at the same level as About, Research, Skills, and Contact.
 - Performances is a primary navigation page. Covers open detail pages containing Bilibili embeds plus direct source links; original videos are not downloaded into the repository.
-- Performance embeds use the public `https://www.bilibili.com/blackboard/html5mobileplayer.html` endpoint, confirmed by the user on iPhone Safari. Use `bvid`, `p=1`, and `danmaku=0`, a strict-origin-when-cross-origin referrer policy, and a fixed 16:9 wrapper. Do not add an autoplay parameter: this endpoint treats even `autoplay=0` as enabled.
+- Performance embeds retain the original `https://player.bilibili.com/player.html` desktop player with `page=1`, `high_quality=1`, `danmaku=0`, and `autoplay=0`. Only iOS/iPadOS uses the public `https://www.bilibili.com/blackboard/html5mobileplayer.html` endpoint confirmed by the user on iPhone Safari. The iOS variant uses `bvid`, `p=1`, and `danmaku=0`; do not add autoplay because even `autoplay=0` enables it on that endpoint. Both use a strict-origin-when-cross-origin referrer policy and a fixed 16:9 wrapper. Detect iPad desktop mode via a Mac user agent plus multitouch, not viewport width. Device selection is a compatibility heuristic, not guaranteed identity detection.
+- Homepage portrait: `assets/images/zilin-chen-2026.jpg` (user-supplied white-shirt photo). Preserve the old `zilin-chen.jpg`; do not reuse either portrait as the favicon.
+- Browser and Apple touch icons use the forest-green/ivory ZC monogram with a coral accent across all pages. PNG assets are committed; `scripts/generate-favicons.swift` is an optional macOS maintenance utility, not a build requirement.
 - Research cards link to independent project detail pages.
 - Responsive behavior is required for desktop and mobile.
 - Light/dark preference and English/Chinese preference are stored in browser local storage.

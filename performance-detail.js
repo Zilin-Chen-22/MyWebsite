@@ -131,6 +131,11 @@
   if (!mount) return;
   let hasRendered = false;
 
+  // Limit the compatibility player to iOS/iPadOS, not narrow desktop windows.
+  // iPadOS may identify as a Mac when requesting desktop websites.
+  const useIOSPlayer = /iPhone|iPad|iPod/i.test(navigator.userAgent)
+    || (/Macintosh/i.test(navigator.userAgent) && navigator.maxTouchPoints > 1);
+
   const escapeHtml = (value) => String(value).replace(/[&<>"]/g, (character) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[character]);
   const render = () => {
     const zh = document.documentElement.lang.startsWith("zh");
@@ -150,7 +155,9 @@
     const sourceUrl = `https://www.bilibili.com/video/${id}/`;
     // This mobile endpoint treats any autoplay value (even "0" or "false") as true.
     // Omit autoplay so playback starts only when the visitor presses play.
-    const playerUrl = `https://www.bilibili.com/blackboard/html5mobileplayer.html?bvid=${encodeURIComponent(id)}&p=1&danmaku=0`;
+    const playerUrl = useIOSPlayer
+      ? `https://www.bilibili.com/blackboard/html5mobileplayer.html?bvid=${encodeURIComponent(id)}&p=1&danmaku=0`
+      : `https://player.bilibili.com/player.html?bvid=${encodeURIComponent(id)}&page=1&high_quality=1&danmaku=0&autoplay=0`;
 
     mount.innerHTML = `
       <section class="performance-detail-hero section-shell reveal">

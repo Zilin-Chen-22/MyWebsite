@@ -161,7 +161,7 @@ h1 > span { display: block; }
   height: 510px; left: 18%; margin: 0; overflow: hidden; position: absolute; top: 2%; transform: rotate(-2.2deg); width: 54%; z-index: 2;
 }
 .portrait-frame::after { border: 1px solid rgba(255,255,255,.55); content: ""; inset: .75rem; pointer-events: none; position: absolute; }
-.portrait-frame img { filter: saturate(.75) contrast(1.04); height: calc(100% - 68px); object-fit: cover; object-position: center 22%; width: 100%; }
+.portrait-frame img { height: calc(100% - 68px); object-fit: cover; object-position: center 35%; width: 100%; }
 .portrait-frame figcaption { align-items: center; background: var(--surface); display: flex; height: 68px; justify-content: space-between; padding: .8rem 1rem; }
 .portrait-frame figcaption span, .portrait-frame figcaption strong { font-size: .59rem; letter-spacing: .07em; text-transform: uppercase; }
 .portrait-frame figcaption span { color: var(--muted); }
