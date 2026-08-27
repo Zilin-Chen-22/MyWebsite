@@ -123,6 +123,7 @@
   };
 
   const roleZh = { "Double bass": "低音提琴", "Piano": "钢琴", "Flute": "长笛", "Clarinet": "单簧管", "Harp": "竖琴", "Oboe": "双簧管", "Horn": "圆号", "Viola": "中提琴", "Cello": "大提琴", "Flute I": "第一长笛", "Flute II": "第二长笛", "Violin": "小提琴", "Violin I": "第一小提琴", "Violin II": "第二小提琴", "Cello part · performed on double bass": "大提琴声部（低音提琴代替）" };
+  const nameEn = { "Chang Xinran": "Xinran Chang", "Wang Qiyao": "Qiyao Wang", "Zhan Ran": "Ran Zhan", "Zou Xiaotong": "Xiaotong Zou", "Diao Zeyuan": "Zeyuan Diao", "Zhao Boyuan": "Boyuan Zhao", "Chen Tianle": "Tianle Chen", "Wang Tiantian": "Tiantian Wang", "Min Qincheng": "Qincheng Min", "Wang Meixuan": "Meixuan Wang", "Xu Weixi": "Weixi Xu", "Jin Kaixuan": "Kaixuan Jin", "Wang Zhihao": "Zhihao Wang", "Li Tianmeng": "Tianmeng Li", "Wang Jiahui": "Jiahui Wang", "Yang Huhao": "Huhao Yang", "Che Wanyu": "Wanyu Che", "Li Qiaoyi": "Qiaoyi Li" };
   const nameZh = { "Zilin Chen": "陈子林", "Chang Xinran": "常欣然", "Wang Qiyao": "王启尧", "Zhan Ran": "展然", "Zou Xiaotong": "邹箫桐", "Diao Zeyuan": "刁泽原", "Zhao Boyuan": "赵博渊", "Chen Tianle": "陈天乐", "Wang Tiantian": "王天天", "Min Qincheng": "闵勤承", "Wang Meixuan": "王美璇", "Xu Weixi": "徐微曦", "Jin Kaixuan": "金愷暄", "Wang Zhihao": "王智豪", "Li Tianmeng": "黎天盟", "Wang Jiahui": "王嘉慧", "Yang Huhao": "杨胡灏", "Che Wanyu": "车宛钰", "Li Qiaoyi": "李巧艺" };
   const order = Object.keys(performances);
   const id = new URLSearchParams(window.location.search).get("id");
@@ -151,7 +152,7 @@
     const index = order.indexOf(id);
     const previous = order[(index - 1 + order.length) % order.length];
     const next = order[(index + 1) % order.length];
-    const people = performance.performers.map(([name, role, featured]) => `<article class="performer${featured ? " performer-featured" : ""}"><span>${escapeHtml(zh ? (nameZh[name] || name) : name)}</span><strong>${escapeHtml(zh ? (roleZh[role] || role) : role)}</strong>${featured ? `<em>${zh ? "本人演出" : "Zilin's role"}</em>` : ""}</article>`).join("");
+    const people = performance.performers.map(([name, role, featured]) => `<article class="performer${featured ? " performer-featured" : ""}"><span>${escapeHtml(zh ? (nameZh[name] || name) : (nameEn[name] || name))}</span><strong>${escapeHtml(zh ? (roleZh[role] || role) : role)}</strong>${featured ? `<em>${zh ? "本人演出" : "Zilin's role"}</em>` : ""}</article>`).join("");
     const sourceUrl = `https://www.bilibili.com/video/${id}/`;
     // This mobile endpoint treats any autoplay value (even "0" or "false") as true.
     // Omit autoplay so playback starts only when the visitor presses play.

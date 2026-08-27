@@ -90,6 +90,25 @@ test('narrow desktop windows still use the desktop player', () => {
   assertPlayer(page.mount.innerHTML, ids[0], false);
 });
 
+test('performer names use given-name-first English and Chinese characters by language', () => {
+  const names = [
+    ['Zilin Chen', '陈子林'], ['Xinran Chang', '常欣然'], ['Qiyao Wang', '王启尧'],
+    ['Ran Zhan', '展然'], ['Xiaotong Zou', '邹箫桐'], ['Zeyuan Diao', '刁泽原'],
+    ['Boyuan Zhao', '赵博渊'], ['Tianle Chen', '陈天乐'], ['Tiantian Wang', '王天天'],
+    ['Qincheng Min', '闵勤承'], ['Meixuan Wang', '王美璇'], ['Weixi Xu', '徐微曦'],
+    ['Kaixuan Jin', '金愷暄'], ['Zhihao Wang', '王智豪'], ['Tianmeng Li', '黎天盟'],
+    ['Jiahui Wang', '王嘉慧'], ['Huhao Yang', '杨胡灏'], ['Wanyu Che', '车宛钰'],
+    ['Qiaoyi Li', '李巧艺']
+  ];
+  const english = ids.map(id => renderDetail(id, 'en').mount.innerHTML).join('');
+  const chinese = ids.map(id => renderDetail(id, 'zh-CN').mount.innerHTML).join('');
+  for (const [en, zh] of names) {
+    assert.ok(english.includes(`<span>${en}</span>`), `missing English performer: ${en}`);
+    assert.ok(chinese.includes(`<span>${zh}</span>`), `missing Chinese performer: ${zh}`);
+    assert.ok(!english.includes(`<span>${zh}</span>`), `Chinese name leaked into English: ${zh}`);
+  }
+});
+
 test('invalid video IDs do not create an iframe', () => {
   const page = renderDetail('<invalid>');
   assert.doesNotMatch(page.mount.innerHTML, /<iframe/);

@@ -1,5 +1,9 @@
 # Website change log
 
+## 2026-08-27
+
+- Standardized performer names by interface language: English details now use given-name-first Romanized names for every performer (for example, `Tiantian Wang`), matching `Zilin Chen`; Chinese details continue to use Chinese characters (for example, `王天天`). Added coverage for every credited performer across all 15 details and updated the homepage modification date.
+
 ## 2026-08-26
 
 - The user preferred the original desktop Bilibili player. Restored `player.bilibili.com/player.html` for desktop/non-iOS visitors while retaining the verified compatibility player on iPhone/iPad (including iPad desktop mode). Kept the fixed 16:9 frame; narrow desktop windows do not trigger the iOS player. Automated coverage now checks all 15 recordings in both languages across eight device profiles.
