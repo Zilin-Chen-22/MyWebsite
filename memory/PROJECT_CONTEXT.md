@@ -16,7 +16,7 @@ Personal research portfolio for Zilin Chen / 陈子林, focused on robotics, con
 
 - `index.html`: home
 - `about.html`: profile and background
-- `education.html`: Tsinghua degree and University of Toronto exchange
+- `education.html`: incoming University of Hong Kong PhD, Tsinghua degree, and University of Toronto exchange
 - `research.html`: project index
 - `projects/*.html`: six project detail pages
 - `skills.html`: technical skills and interests
@@ -46,7 +46,7 @@ Personal research portfolio for Zilin Chen / 陈子林, focused on robotics, con
 - The language switch sits next to the light/dark control and shows the language available to switch to (`中` or `EN`).
 - The home footer contains a deliberately understated hard-coded `Last modified` date. Update it whenever accepted site content or functionality changes.
 - Current professional identity: Decision & Planning Algorithm Engineer at Beijing Keyi Technology Co., Ltd., July 2026-present, based in Beijing.
-- Education: B.E. in Mechanical Engineering at Tsinghua University, August 2022-June 2026; exchange at the University of Toronto, September-December 2024.
+- Education: incoming full-time four-year PhD in Mechanical Engineering at the University of Hong Kong, 1 November 2026-31 October 2030 (expected), field of study Autonomous UAVs, supervisor Peng Lu / 鲁鹏; B.E. in Mechanical Engineering at Tsinghua University, August 2022-June 2026; exchange at the University of Toronto, September-December 2024.
 - Public email addresses: primary `chenzili22@outlook.com`; secondary `zilinchen79@gmail.com`. Do not restore the former Tsinghua student email to website pages.
 - Original project media is part of the portfolio content and must not be dropped during redesigns or migrations.
 - Project media should appear beside the relevant technical narrative, not as one detached gallery at the end of each page.

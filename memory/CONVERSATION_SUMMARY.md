@@ -33,6 +33,8 @@ This is a concise decision record, not a verbatim transcript.
 
 ## Current request
 
+- Add the incoming University of Hong Kong full-time four-year PhD to Education: registration 1 November 2026, expected completion 31 October 2030, Department of Mechanical Engineering, field Autonomous UAVs, supervisor Peng Lu / 鲁鹏. Present it as incoming until registration; omit the offer's internal probationary milestone and `N/A` discipline field.
+
 - Keep the zoom interaction on performance cover images, but make each cover open a dedicated detail view.
 - Remove Preview buttons from the collection cards while retaining the direct Bilibili button.
 - Each detail view provides the embedded recording, a substantial bilingual programme note, event context, and performer credits.

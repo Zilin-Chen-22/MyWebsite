@@ -1,5 +1,11 @@
 # Website change log
 
+## 2026-09-02
+
+- Added Zilin's incoming full-time four-year PhD in Mechanical Engineering at the University of Hong Kong, beginning 1 November 2026 and expected to conclude 31 October 2030. Listed the research field as autonomous UAVs and supervisor as Peng Lu / 鲁鹏.
+- Kept the public entry focused on academically relevant details; omitted the internal probationary-period milestone and the offer table's `N/A` discipline value.
+- Updated the Education hero and metadata from two to three institutions, added the incoming PhD to About and the homepage Education summary, synchronized Chinese translations, and advanced the homepage modification date.
+
 ## 2026-08-27
 
 - Standardized performer names by interface language: English details now use given-name-first Romanized names for every performer (for example, `Tiantian Wang`), matching `Zilin Chen`; Chinese details continue to use Chinese characters (for example, `王天天`). Added coverage for every credited performer across all 15 details and updated the homepage modification date.
