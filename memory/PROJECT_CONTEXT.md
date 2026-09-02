@@ -47,6 +47,7 @@ Personal research portfolio for Zilin Chen / 陈子林, focused on robotics, con
 - The home footer contains a deliberately understated hard-coded `Last modified` date. Update it whenever accepted site content or functionality changes.
 - Current professional identity: Decision & Planning Algorithm Engineer at Beijing Keyi Technology Co., Ltd., July 2026-present, based in Beijing.
 - Education: incoming full-time four-year PhD in Mechanical Engineering at the University of Hong Kong, 1 November 2026-31 October 2030 (expected), field of study Autonomous UAVs, supervisor Peng Lu / 鲁鹏; B.E. in Mechanical Engineering at Tsinghua University, August 2022-June 2026; exchange at the University of Toronto, September-December 2024.
+- On the public Education timeline, show the HKU period once as `2026.11—2030.10`; do not repeat Registration or Expected completion as detail fields. Keep the exact offer dates in this maintenance record for future reference.
 - Public email addresses: primary `chenzili22@outlook.com`; secondary `zilinchen79@gmail.com`. Do not restore the former Tsinghua student email to website pages.
 - Original project media is part of the portfolio content and must not be dropped during redesigns or migrations.
 - Project media should appear beside the relevant technical narrative, not as one detached gallery at the end of each page.

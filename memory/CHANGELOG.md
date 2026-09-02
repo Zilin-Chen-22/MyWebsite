@@ -5,6 +5,7 @@
 - Added Zilin's incoming full-time four-year PhD in Mechanical Engineering at the University of Hong Kong, beginning 1 November 2026 and expected to conclude 31 October 2030. Listed the research field as autonomous UAVs and supervisor as Peng Lu / 鲁鹏.
 - Kept the public entry focused on academically relevant details; omitted the internal probationary-period milestone and the offer table's `N/A` discipline value.
 - Updated the Education hero and metadata from two to three institutions, added the incoming PhD to About and the homepage Education summary, synchronized Chinese translations, and advanced the homepage modification date.
+- Simplified the public HKU entry after the user identified repeated dates: the left timeline alone shows `2026.11—2030.10`; removed the separate Registration and Expected completion fields and reduced the narrative to the starting month.
 
 ## 2026-08-27
 

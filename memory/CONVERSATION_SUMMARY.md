@@ -34,6 +34,7 @@ This is a concise decision record, not a verbatim transcript.
 ## Current request
 
 - Add the incoming University of Hong Kong full-time four-year PhD to Education: registration 1 November 2026, expected completion 31 October 2030, Department of Mechanical Engineering, field Autonomous UAVs, supervisor Peng Lu / 鲁鹏. Present it as incoming until registration; omit the offer's internal probationary milestone and `N/A` discipline field.
+- The user considered the Registration and Expected completion detail boxes redundant with the left Education timeline. The accepted display keeps only `2026.11—2030.10` on the left; the right side contains Degree, Research field, Supervisor, and Candidature.
 
 - Keep the zoom interaction on performance cover images, but make each cover open a dedicated detail view.
 - Remove Preview buttons from the collection cards while retaining the direct Bilibili button.
