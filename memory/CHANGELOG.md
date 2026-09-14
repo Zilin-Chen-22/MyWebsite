@@ -1,5 +1,11 @@
 # Website change log
 
+## 2026-09-14
+
+- Added Calendar as a primary bilingual page between Performances and Contact, embedding Zilin's read-only published Outlook calendar and retaining a direct Outlook fallback link.
+- Confirmed the supplied public link resolves without authentication. The final Outlook calendar response permits embedding at the time of implementation; the page remains usable through its direct link if a browser or future Outlook policy blocks the iframe.
+- Added Calendar to every navigation menu and the home portfolio rail, advanced Contact to section 08, added responsive calendar styling, and updated the homepage modification date.
+
 ## 2026-09-02
 
 - Added Zilin's incoming full-time four-year PhD in Mechanical Engineering at the University of Hong Kong, beginning 1 November 2026 and expected to conclude 31 October 2030. Listed the research field as autonomous UAVs and supervisor as Peng Lu / 鲁鹏.

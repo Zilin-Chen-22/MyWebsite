@@ -13,7 +13,7 @@ This is a concise decision record, not a verbatim transcript.
 ## Information architecture
 
 - The user prefers separate pages rather than one continuous long page.
-- Primary pages are Home, About, Education, Research, Skills, Performances, and Contact.
+- Primary pages are Home, About, Education, Research, Skills, Performances, Calendar, and Contact.
 - Research projects require a second level of independent detail pages.
 - Search and display controls should remain on the right side of the navigation.
 - The unclear `ZC / 22` label and duplicate Home link were questioned. The accepted solution is a clear `ZILIN CHEN` wordmark as the home entry, with no separate Home menu item.
@@ -32,6 +32,8 @@ This is a concise decision record, not a verbatim transcript.
 - Supabase was discussed as a possible backend, but the user chose not to add that operational complexity for now.
 
 ## Current request
+
+- Add the supplied public Outlook calendar as a bilingual primary Calendar page for busy/free availability. Keep it read-only and embedded, with a direct Outlook fallback; Outlook remains the source of truth for visibility and updates.
 
 - Add the incoming University of Hong Kong full-time four-year PhD to Education: registration 1 November 2026, expected completion 31 October 2030, Department of Mechanical Engineering, field Autonomous UAVs, supervisor Peng Lu / 鲁鹏. Present it as incoming until registration; omit the offer's internal probationary milestone and `N/A` discipline field.
 - The user considered the Registration and Expected completion detail boxes redundant with the left Education timeline. The accepted display keeps only `2026.11—2030.10` on the left; the right side contains Degree, Research field, Supervisor, and Candidature.
