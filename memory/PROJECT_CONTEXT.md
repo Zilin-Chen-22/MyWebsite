@@ -21,7 +21,8 @@ Personal research portfolio for Zilin Chen / 陈子林, focused on robotics, con
 - `projects/*.html`: six project detail pages
 - `skills.html`: technical skills and interests
 - `performances.html`: orchestral, chamber, and solo performance collection with clickable detail covers and direct Bilibili links
-- `calendar.html`: embedded read-only Outlook published calendar with a direct fallback link
+- `calendar.html` + `calendar.js`: native read-only month view and agenda of anonymized Outlook busy blocks
+- `scripts/build-calendar-data.cjs` + `.github/workflows/sync-calendar.yml`: privacy-filtered hourly Outlook ICS synchronization
 - `performance.html` + `performance-detail.js`: reusable bilingual recording detail view with player, programme note, and ensemble credits
 - `contact.html`: contact information
 - `assets/images/`: portrait and project images
@@ -37,7 +38,7 @@ Personal research portfolio for Zilin Chen / 陈子林, focused on robotics, con
 - Independent pages are preferred over one long scrolling page.
 - Education is a primary navigation page at the same level as About, Research, Skills, and Contact.
 - Performances is a primary navigation page. Covers open detail pages containing Bilibili embeds plus direct source links; original videos are not downloaded into the repository.
-- Calendar is a primary navigation page between Performances and Contact. It embeds the canonical Outlook published-calendar page and links to the user-supplied public URL as a fallback. Do not copy calendar events into the repository; visibility and updates remain controlled by Outlook publishing settings.
+- Calendar is a primary navigation page between Performances and Contact. Do not embed or link the Outlook HTML calendar because anonymous visitors may be redirected to Microsoft registration. Render only privacy-filtered busy blocks from `assets/data/calendar.json`; the hourly workflow reads the public ICS feed and discards all event content except start, end, and all-day status.
 - Performer names follow the active interface language: English uses given-name-first Romanized names (`Zilin Chen`, `Tiantian Wang`), while Chinese uses Chinese characters (`陈子林`, `王天天`). Preserve this convention when adding or correcting credits.
 - Performance embeds retain the original `https://player.bilibili.com/player.html` desktop player with `page=1`, `high_quality=1`, `danmaku=0`, and `autoplay=0`. Only iOS/iPadOS uses the public `https://www.bilibili.com/blackboard/html5mobileplayer.html` endpoint confirmed by the user on iPhone Safari. The iOS variant uses `bvid`, `p=1`, and `danmaku=0`; do not add autoplay because even `autoplay=0` enables it on that endpoint. Both use a strict-origin-when-cross-origin referrer policy and a fixed 16:9 wrapper. Detect iPad desktop mode via a Mac user agent plus multitouch, not viewport width. Device selection is a compatibility heuristic, not guaranteed identity detection.
 - Homepage portrait: `assets/images/zilin-chen-2026.jpg` (user-supplied white-shirt photo). Preserve the old `zilin-chen.jpg`; do not reuse either portrait as the favicon.

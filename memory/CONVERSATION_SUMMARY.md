@@ -33,7 +33,7 @@ This is a concise decision record, not a verbatim transcript.
 
 ## Current request
 
-- Add the supplied public Outlook calendar as a bilingual primary Calendar page for busy/free availability. Keep it read-only and embedded, with a direct Outlook fallback; Outlook remains the source of truth for visibility and updates.
+- The initial embedded Outlook Calendar redirected anonymous visitors toward Microsoft registration. Replace it with a native bilingual month/agenda view synchronized hourly from the public ICS feed. Publish only anonymized busy blocks and discard all event details.
 
 - Add the incoming University of Hong Kong full-time four-year PhD to Education: registration 1 November 2026, expected completion 31 October 2030, Department of Mechanical Engineering, field Autonomous UAVs, supervisor Peng Lu / 鲁鹏. Present it as incoming until registration; omit the offer's internal probationary milestone and `N/A` discipline field.
 - The user considered the Registration and Expected completion detail boxes redundant with the left Education timeline. The accepted display keeps only `2026.11—2030.10` on the left; the right side contains Degree, Research field, Supervisor, and Candidature.

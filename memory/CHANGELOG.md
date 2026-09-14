@@ -5,6 +5,8 @@
 - Added Calendar as a primary bilingual page between Performances and Contact, embedding Zilin's read-only published Outlook calendar and retaining a direct Outlook fallback link.
 - Confirmed the supplied public link resolves without authentication. The final Outlook calendar response permits embedding at the time of implementation; the page remains usable through its direct link if a browser or future Outlook policy blocks the iframe.
 - Added Calendar to every navigation menu and the home portfolio rail, advanced Contact to section 08, added responsive calendar styling, and updated the homepage modification date.
+- Replaced the Outlook HTML embed after anonymous visitors were redirected toward Microsoft registration. The Calendar page now renders a native bilingual month view and agenda without any Microsoft login flow.
+- Added an hourly GitHub Actions sync from Outlook's public ICS feed. Generated website data contains only current/future start time, end time, and all-day status; event titles, descriptions, locations, participants, organizers, identifiers, and past history are discarded.
 
 ## 2026-09-02
 
