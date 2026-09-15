@@ -1,6 +1,7 @@
 (() => {
-  const target = document.querySelector('#cal-inline-chenzili22');
-  if (!target) return;
+  const booker = document.querySelector('#cal-booker');
+  const optionButtons = [...document.querySelectorAll('[data-cal-option]')];
+  if (!booker || !optionButtons.length) return;
 
   (function (windowObject, scriptUrl, initCommand) {
     const queue = (api, args) => api.q.push(args);
@@ -54,13 +55,45 @@
     }
   });
 
-  window.Cal('init', { origin: 'https://cal.com' });
-  window.Cal('inline', {
-    elementOrSelector: '#cal-inline-chenzili22',
-    calLink: 'chenzili22',
-    config: { layout: 'month_view', theme: theme() }
-  });
-  window.Cal('ui', ui(theme()));
+  const options = {
+    meeting15: { calLink: 'chenzili22/15min', label: '15-minute meeting' },
+    meeting30: { calLink: 'chenzili22/30min', label: '30-minute meeting' },
+    meetingFlexible: { calLink: 'chenzili22/15min-%E5%A4%8D%E5%88%B6', label: 'Flexible-duration meeting' }
+  };
+  const initialized = new Set();
 
-  window.addEventListener('zilin-theme-change', event => window.Cal('ui', ui(event.detail.theme)));
+  function initialize(optionName) {
+    if (initialized.has(optionName)) return;
+    const option = options[optionName];
+    const panel = document.createElement('div');
+    panel.className = 'cal-inline';
+    panel.id = `cal-inline-${optionName}`;
+    panel.setAttribute('role', 'tabpanel');
+    panel.setAttribute('aria-label', option.label);
+    panel.hidden = true;
+    booker.append(panel);
+
+    window.Cal('init', optionName, { origin: 'https://cal.com' });
+    window.Cal.ns[optionName]('inline', {
+      elementOrSelector: `#${panel.id}`,
+      calLink: option.calLink,
+      config: { layout: 'month_view', theme: theme() }
+    });
+    window.Cal.ns[optionName]('ui', ui(theme()));
+    initialized.add(optionName);
+  }
+
+  function activate(optionName) {
+    if (!options[optionName]) return;
+    initialize(optionName);
+    optionButtons.forEach(button => button.setAttribute('aria-selected', String(button.dataset.calOption === optionName)));
+    booker.querySelectorAll('.cal-inline').forEach(panel => { panel.hidden = panel.id !== `cal-inline-${optionName}`; });
+  }
+
+  optionButtons.forEach(button => button.addEventListener('click', () => activate(button.dataset.calOption)));
+  activate('meeting15');
+
+  window.addEventListener('zilin-theme-change', event => {
+    initialized.forEach(optionName => window.Cal.ns[optionName]('ui', ui(event.detail.theme)));
+  });
 })();

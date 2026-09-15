@@ -33,7 +33,7 @@ This is a concise decision record, not a verbatim transcript.
 
 ## Current request
 
-- The initial Outlook embed redirected anonymous visitors toward Microsoft registration, and the replacement GitHub Actions ICS mirror did not run reliably every hour. The accepted replacement is the public `cal.com/chenzili22` profile, embedded inline with its 15-minute and 30-minute meeting types and a direct fallback link.
+- The initial Outlook embed redirected anonymous visitors toward Microsoft registration, and the replacement GitHub Actions ICS mirror did not run reliably every hour. The accepted replacement is Cal.com: the site presents 15-minute, 30-minute, and flexible duration controls, then embeds the selected detailed calendar, time slots, and booking form inline, with a direct `cal.com/chenzili22` fallback.
 
 - Add the incoming University of Hong Kong full-time four-year PhD to Education: registration 1 November 2026, expected completion 31 October 2030, Department of Mechanical Engineering, field Autonomous UAVs, supervisor Peng Lu / 鲁鹏. Present it as incoming until registration; omit the offer's internal probationary milestone and `N/A` discipline field.
 - The user considered the Registration and Expected completion detail boxes redundant with the left Education timeline. The accepted display keeps only `2026.11—2030.10` on the left; the right side contains Degree, Research field, Supervisor, and Candidature.

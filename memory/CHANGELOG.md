@@ -5,6 +5,7 @@
 - Replaced the delayed GitHub Actions/Outlook ICS availability mirror with Zilin's public Cal.com profile at `cal.com/chenzili22`.
 - Embedded the complete Cal.com profile so visitors can choose either the configured 15-minute or 30-minute meeting and book without creating an account; retained a direct Cal.com fallback link.
 - Matched the embed to the portfolio's light and dark palette, added bilingual surrounding copy, and removed the obsolete hourly workflow, generated busy-time data, and calendar parser.
+- Replaced the profile-only first screen with a site-native duration selector for 15-minute, 30-minute, and flexible meetings. Each option lazily opens its full Cal.com month calendar, available time slots, and booking form inline.
 
 ## 2026-09-14
 
