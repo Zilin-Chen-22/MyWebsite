@@ -11,14 +11,11 @@ const pages = readdirSync('.').filter(file => file.endsWith('.html') && file !==
 
 test('calendar page embeds the public Cal.com profile with a direct fallback', () => {
   assert.match(calendar, /<body data-page="calendar">/);
-  assert.match(calendar, /id="cal-booker"/);
-  assert.equal((calendar.match(/data-cal-option=/g) || []).length, 3);
+  assert.match(calendar, /id="cal-inline-chenzili22"/);
   assert.match(calendar, /href="https:\/\/cal\.com\/chenzili22"/);
   assert.doesNotMatch(calendar, /outlook\.live\.com/);
   assert.match(calendar, /no account required/);
-  assert.match(calendarScript, /calLink: 'chenzili22\/15min'/);
-  assert.match(calendarScript, /calLink: 'chenzili22\/30min'/);
-  assert.match(calendarScript, /15min-%E5%A4%8D%E5%88%B6/);
+  assert.match(calendarScript, /calLink: 'chenzili22'/);
   assert.match(calendarScript, /https:\/\/app\.cal\.com\/embed\/embed\.js/);
 });
 
@@ -32,15 +29,8 @@ test('Calendar appears in every site navigation and on the home rail', () => {
 });
 
 test('calendar interface has Chinese translations', () => {
-  ['日历', '预约时间', '选择会议', '无需注册账户', '自定义时长会议']
+  ['日历', '预约时间', '选择会议', '无需注册账户', '单独打开']
     .forEach(value => assert.ok(translations.includes(value), `missing translation: ${value}`));
-});
-
-test('meeting duration controls open detailed inline calendars', () => {
-  assert.match(calendarScript, /activate\('meeting15'\)/);
-  assert.match(calendarScript, /role', 'tabpanel'/);
-  assert.match(calendarScript, /config: \{ layout: 'month_view', theme: theme\(\) \}/);
-  assert.match(calendarScript, /button\.addEventListener\('click'/);
 });
 
 test('Cal.com embed follows the site light and dark themes', () => {
