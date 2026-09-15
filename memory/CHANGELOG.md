@@ -1,5 +1,11 @@
 # Website change log
 
+## 2026-09-15
+
+- Replaced the delayed GitHub Actions/Outlook ICS availability mirror with Zilin's public Cal.com profile at `cal.com/chenzili22`.
+- Embedded the complete Cal.com profile so visitors can choose either the configured 15-minute or 30-minute meeting and book without creating an account; retained a direct Cal.com fallback link.
+- Matched the embed to the portfolio's light and dark palette, added bilingual surrounding copy, and removed the obsolete hourly workflow, generated busy-time data, and calendar parser.
+
 ## 2026-09-14
 
 - Added Calendar as a primary bilingual page between Performances and Contact, embedding Zilin's read-only published Outlook calendar and retaining a direct Outlook fallback link.

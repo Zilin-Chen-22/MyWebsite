@@ -12,6 +12,7 @@ themeButton?.addEventListener('click', () => {
   if (dark) delete root.dataset.theme;
   else root.dataset.theme = 'dark';
   localStorage.setItem('zilin-theme', dark ? 'light' : 'dark');
+  window.dispatchEvent(new CustomEvent('zilin-theme-change', { detail: { theme: dark ? 'light' : 'dark' } }));
 });
 
 menuButton?.addEventListener('click', () => {
