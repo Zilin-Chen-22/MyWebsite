@@ -21,7 +21,8 @@ test('incoming HKU PhD is complete and presented before earlier education', () =
 
 test('HKU education is reflected in About, Home, and Chinese translations', () => {
   assert.match(about, /incoming PhD student|begin full-time PhD study/i);
-  assert.match(home, /Hong Kong, Tsinghua &amp; Toronto/);
+  assert.match(home, /incoming PhD student/i);
+  assert.match(home, /University of Hong Kong/);
   const chinese = ['香港大学', '机械工程系 · 香港', '自主无人机', '鲁鹏', '全日制', '2026 年 11 月'];
   chinese.forEach(value => assert.ok(translations.includes(value), `missing translation: ${value}`));
 });

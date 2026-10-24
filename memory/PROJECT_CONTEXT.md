@@ -10,7 +10,7 @@ Personal research portfolio for Zilin Chen / 陈子林, focused on robotics, con
 - Framework: none. The site is intentionally plain HTML, CSS, and JavaScript.
 - No Hugo, Jekyll templates, package manager, or build step.
 - `.nojekyll` is included so GitHub Pages serves the static files directly.
-- Shared styling is in `styles.css`; shared behavior is in `script.js`; translation behavior and Chinese copy are in `i18n.js`.
+- Inner-page styling is in `styles.css`; Home and Research use `portfolio.css` and `portfolio.js`. Shared behavior is in `script.js`; inner-page translation behavior and Chinese copy are in `i18n.js`. `theme-init.js` restores the shared color preference before rendering.
 
 ## Page map
 
@@ -31,7 +31,7 @@ Personal research portfolio for Zilin Chen / 陈子林, focused on robotics, con
 
 ## Accepted design decisions
 
-- Warm ivory, forest green, and coral editorial visual system.
+- Approved 2026-10-24: graphite/neutral gray visual system, sans-serif typography, thin separators, restrained imagery, and open layouts. Default is dark, with a neutral light mode. This replaces the former ivory/green/coral design.
 - Desktop navigation begins at the upper left; CV and display controls remain at the right.
 - The `ZILIN CHEN` wordmark is the home link. A separate Home menu item was removed to avoid duplication.
 - Independent pages are preferred over one long scrolling page.

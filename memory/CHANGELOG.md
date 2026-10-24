@@ -1,5 +1,12 @@
 # Website change log
 
+## 2026-10-24
+
+- User approved the complete neutral design preview and requested replacing the live site.
+- Applied graphite/gray styling throughout Home, About, Education, Research, all six project details, Skills, Performances and its details, Calendar, and Contact.
+- Preserved project articles/media, performance credits and device-specific players, bilingual controls, Cal.com profile embedding, and shared light/dark preferences.
+- Home and Research retain independent URLs; removed preview labels and updated Last modified to 2026-10-24.
+
 ## 2026-09-15
 
 - Replaced the delayed GitHub Actions/Outlook ICS availability mirror with Zilin's public Cal.com profile at `cal.com/chenzili22`.
