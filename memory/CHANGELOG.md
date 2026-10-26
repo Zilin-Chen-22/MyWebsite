@@ -1,5 +1,13 @@
 # Website change log
 
+## 2026-10-26
+
+- Approved bilingual copy edit (option C), following the user's accepted homepage sample: direct, personal language with concrete work and dates instead of slogans.
+- Rewrote Home/About introductions, education and skills summaries, contact/scheduling copy, six research project narratives, and all 15 performance programme notes. Retained technical details, figures, media, repertoire titles, performer credits, and project limitations.
+- Converted split promotional headings into whole translated headings. Updated English and Chinese together and retained the existing language-switch behavior.
+- Matched the robotic-arm summary to the detail page's conservative scope (simulation development for subsequent hardware testing), rather than claiming completed physical validation in the summary.
+- Updated Last modified to 2026-10-26; checked bilingual desktop/mobile rendering, translation coverage, and video-player regressions.
+
 ## 2026-10-24
 
 - User approved the complete neutral design preview and requested replacing the live site.

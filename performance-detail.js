@@ -5,7 +5,7 @@
       title: ["Fantasy on Themes from Bellini's La Sonnambula", "《贝里尼“梦游女”主题幻想曲》"],
       composer: ["Giovanni Bottesini", "乔瓦尼·波泰西尼"],
       setting: ["Tsinghua Symphony · Reappearance Chamber Concert · 2023", "清华交响 · “再现”室内乐音乐会 · 2023"],
-      note: ["Bottesini transforms melodies from Bellini's opera La sonnambula into a virtuoso concert fantasy. Long, vocal lines preserve the opera's bel canto character, while rapid passagework, harmonics, and wide-register leaps reveal the double bass as an agile solo voice rather than only an orchestral foundation.", "波泰西尼从贝里尼歌剧《梦游女》中提取旋律，写成一首炫技性的音乐会幻想曲。悠长的歌唱性乐句保留了歌剧的美声气质，而快速音群、泛音与跨音区跳跃，则让低音提琴从乐队低声部转变为灵活而富有戏剧性的独奏声部。"],
+      note: ["Bottesini based this fantasy on melodies from Bellini’s opera La sonnambula. The double-bass part combines long, singing phrases with fast passages, harmonics, and wide leaps between registers.","波泰西尼以贝里尼歌剧《梦游女》的旋律为素材写成这首幻想曲。低音提琴声部既有舒展的歌唱性乐句，也有快速音群、泛音和大幅度的音区跳跃。"],
       performers: [["Zilin Chen", "Piano", true], ["Wang Tiantian", "Double bass"]]
     },
     BV1DjMwzZECk: {
@@ -13,7 +13,7 @@
       title: ["Finlandia, Op. 26 (arr. for Double Bass Sextet)", "《芬兰颂》，Op. 26（低音提琴六重奏改编）"],
       composer: ["Jean Sibelius", "让·西贝柳斯"],
       setting: ["Tsinghua Symphony · Reappearance Chamber Concert · 2023", "清华交响 · “再现”室内乐音乐会 · 2023"],
-      note: ["Sibelius's tone poem moves from a tense, dark opening toward a broad hymn-like melody. In this six-double-bass arrangement, the instrument's full range carries both the weight of the brass-inspired writing and the warmth of the central chorale, turning one orchestral color into a layered ensemble sound.", "西贝柳斯的交响诗从紧张、深沉的开端推进至宽广如赞歌般的旋律。六把低音提琴的改编利用乐器完整的音域，既承载原作中近似铜管的厚重力量，也保留中段圣咏的温暖，使单一乐器形成层次丰富的乐队音响。"],
+      note: ["This arrangement of Sibelius’s Finlandia uses six double basses. Their different registers carry the work’s dark opening and broad hymn-like melody, sharing both melodic and accompanying roles.","这版《芬兰颂》由六把低音提琴演奏。不同音区的声部共同呈现作品深沉的开头和宽广的赞歌旋律，并分担旋律与伴奏。"],
       performers: [["Zilin Chen", "Double bass", true]]
     },
     BV1AWpGexE44: {
@@ -21,7 +21,7 @@
       title: ["Four Waltzes: III. Waltz & IV. Barrel-Organ Waltz", "《四首华尔兹》：第三首《华尔兹》与第四首《手摇风琴华尔兹》"],
       composer: ["Dmitri Shostakovich", "德米特里·肖斯塔科维奇"],
       setting: ["Tsinghua University × PolyU · Capriccio Chamber Concert", "清华大学 × 香港理工大学 · “随想”室内乐音乐会"],
-      note: ["These two miniatures compress Shostakovich's theatrical wit into a compact chamber texture. A flowing waltz is followed by the deliberately mechanical charm of the barrel-organ waltz; flute, clarinet, and piano trade melody and accompaniment while keeping the music poised between elegance and irony.", "这两首小品把肖斯塔科维奇的戏剧性机智浓缩进精巧的室内乐织体。流动的华尔兹之后，是带有机械感与幽默感的“手摇风琴华尔兹”；长笛、单簧管和钢琴交换旋律与伴奏，使音乐始终游走在优雅与讽刺之间。"],
+      note: ["These two waltzes are performed by flute, clarinet, and piano. The flowing third waltz contrasts with the more mechanical rhythm of the Barrel-Organ Waltz, with melody and accompaniment passing between the instruments.","这两首华尔兹由长笛、单簧管和钢琴演奏。第三首的旋律较为流畅，第四首《手摇风琴华尔兹》则带有机械般的节奏感，三件乐器交替承担旋律和伴奏。"],
       performers: [["Chang Xinran", "Flute"], ["Wang Qiyao", "Clarinet"], ["Zilin Chen", "Piano", true]]
     },
     BV1xfHSeAEbR: {
@@ -29,7 +29,7 @@
       title: ["Concerto for Flute and Harp in C Major, K. 299: I. Allegro", "《C大调长笛与竖琴协奏曲》，K. 299：第一乐章"],
       composer: ["Wolfgang Amadeus Mozart", "沃尔夫冈·阿马德乌斯·莫扎特"],
       setting: ["Tsinghua University × PolyU · Capriccio Chamber Concert", "清华大学 × 香港理工大学 · “随想”室内乐音乐会"],
-      note: ["Written in Paris in 1778, Mozart's concerto treats flute and harp as equal conversational partners. The first movement balances a bright orchestral manner with graceful solo exchanges: the flute shapes the singing line, the harp adds clarity and shimmer, and the piano carries the supporting orchestral texture in this chamber performance.", "莫扎特于1778年在巴黎创作了这部协奏曲，让长笛与竖琴成为平等对话的独奏伙伴。第一乐章在明亮的古典风格与优雅的声部交流之间取得平衡：长笛塑造歌唱性旋律，竖琴带来清澈光泽，钢琴则在本次室内乐演出中承担乐队织体。"],
+      note: ["Mozart’s concerto pairs flute and harp as solo instruments. In this performance of the first movement, the piano takes the orchestral part while flute and harp exchange melodies and accompanying figures.","这部协奏曲以长笛和竖琴为独奏乐器。本次演奏第一乐章，由钢琴承担乐队声部，长笛与竖琴交替演奏旋律和伴奏音型。"],
       performers: [["Chang Xinran", "Flute"], ["Zhan Ran", "Harp"], ["Zilin Chen", "Piano", true]]
     },
     BV1ToHSeeEh1: {
@@ -37,7 +37,7 @@
       title: ["Septet in D Minor, Op. 74: I. Allegro con spirito", "《d小调钢琴七重奏》，Op. 74：第一乐章"],
       composer: ["Johann Nepomuk Hummel", "约翰·内波穆克·胡梅尔"],
       setting: ["Tsinghua University × PolyU · Capriccio Chamber Concert", "清华大学 × 香港理工大学 · “随想”室内乐音乐会"],
-      note: ["Hummel's septet combines a brilliant piano part with a wind-and-string ensemble of unusually rich color. The opening movement moves with concertante energy: themes pass rapidly among the instruments, while the piano alternates between leadership, accompaniment, and sparkling virtuoso display.", "胡梅尔的七重奏把华丽的钢琴声部与色彩丰富的管弦组合相结合。第一乐章具有鲜明的协奏性：主题在各件乐器之间快速传递，钢琴则在主导、伴奏与炫技之间不断转换，形成紧密而充满推动力的室内乐对话。"],
+      note: ["Hummel’s septet combines piano with wind and string instruments. In the first movement, themes pass between the instruments, and the piano moves between accompaniment and technically demanding solo passages.","胡梅尔的七重奏采用钢琴与管弦乐器组合。第一乐章的主题在各声部之间传递，钢琴既承担伴奏，也有技巧要求较高的独奏段落。"],
       performers: [["Zilin Chen", "Piano", true], ["Zou Xiaotong", "Flute"], ["Diao Zeyuan", "Oboe"], ["Zhao Boyuan", "Horn"], ["Chen Tianle", "Viola"], ["Wang Tiantian", "Cello"], ["Min Qincheng", "Double bass"]]
     },
     BV17XjvzQEtT: {
@@ -45,7 +45,7 @@
       title: ["Gran Duo No. 1 for Two Double Basses: I. Allegro (arr. for Double Bass Trio)", "《第一低音提琴二重奏》：第一乐章（低音提琴三重奏改编）"],
       composer: ["Giovanni Bottesini", "乔瓦尼·波泰西尼"],
       setting: ["Tsinghua Symphony · Song of the Night Chamber Concert · 2025", "清华交响 · “夜之歌”室内乐音乐会 · 2025"],
-      note: ["The first movement of Bottesini's Gran Duo No. 1 treats the double bass as a lyrical and athletic solo instrument. This three-bass version redistributes the original dialogue across an additional voice, expanding the harmony while preserving the quick exchanges, operatic phrasing, and technical sparkle of the Allegro.", "波泰西尼《第一低音提琴二重奏》的第一乐章，把低音提琴同时作为歌唱性与技巧性的独奏乐器。本次三重奏改编将原有对话分配给第三个声部，在扩展和声厚度的同时，保留快板中敏捷的呼应、歌剧式乐句与炫技色彩。"],
+      note: ["This performance adapts the first movement of Bottesini’s Gran Duo No. 1 for three double basses. The additional part expands the ensemble while retaining the original’s lyrical phrases and quick exchanges between voices.","本次演出将波泰西尼《第一低音提琴二重奏》的第一乐章改编为三把低音提琴演奏。在保留原作抒情乐句和声部呼应的基础上，加入第三个声部。"],
       performers: [["Wang Tiantian", "Double bass"], ["Min Qincheng", "Double bass"], ["Zilin Chen", "Double bass", true]]
     },
     BV1Gcj1zMEY6: {
@@ -53,7 +53,7 @@
       title: ["Gran Duo Concertante", "《大二重协奏曲》"],
       composer: ["Giovanni Bottesini", "乔瓦尼·波泰西尼"],
       setting: ["Tsinghua Symphony · Song of the Night Chamber Concert · 2025", "清华交响 · “夜之歌”室内乐音乐会 · 2025"],
-      note: ["Bottesini gives violin and double bass equal dramatic weight in this A-minor concert duo. The two solo lines imitate, challenge, and support one another across contrasting registers, while the piano supplies the orchestral foundation. The result combines operatic melody with the brilliance of a double concerto.", "波泰西尼在这部a小调音乐会二重奏中，赋予小提琴与低音提琴同等的戏剧分量。两个独奏声部跨越鲜明音区，相互模仿、竞逐与支撑，钢琴则承担乐队基础；作品由此把歌剧性的旋律与双协奏曲般的华丽技巧结合起来。"],
+      note: ["Bottesini’s Gran Duo Concertante features two solo lines that alternate and play together, supported here by piano. Singing melodies sit alongside fast passages and contrasts between registers.","波泰西尼《大二重协奏曲》的两个独奏声部时而交替、时而合奏，本次演出由钢琴伴奏。作品将歌唱性的旋律与快速乐段、音区对比结合起来。"],
       performers: [["Che Wanyu", "Violin"], ["Wang Tiantian", "Cello part · performed on double bass"], ["Zilin Chen", "Piano", true]]
     },
     BV19KKJzrE7x: {
@@ -61,7 +61,7 @@
       title: ["Rigoletto Fantasy, Op. 38 (for Two Flutes and Piano)", "《弄臣幻想曲》，Op. 38（双长笛与钢琴）"],
       composer: ["Franz & Karl Doppler", "弗朗茨·多普勒、卡尔·多普勒"],
       setting: ["Tsinghua Symphony · Song of the Night Chamber Concert", "清华交响 · “夜之歌”室内乐音乐会"],
-      note: ["The Doppler brothers reshape well-known themes from Verdi's Rigoletto into a concert fantasy for two flutes and piano. Operatic melodies become a fast-moving dialogue full of imitation, ornament, and cadenza-like display, allowing both flute parts to alternate between vocal lyricism and virtuoso brilliance.", "多普勒兄弟将威尔第歌剧《弄臣》的著名主题改写为双长笛与钢琴的音乐会幻想曲。歌剧旋律被转化为充满模仿、装饰与华彩乐段的快速对话，两支长笛在歌唱性抒情与炫技光彩之间交替推进。"],
+      note: ["The Doppler brothers arranged themes from Verdi’s Rigoletto for two flutes and piano. The flute parts exchange melodies and ornaments, alternating lyrical passages with more virtuosic writing.","多普勒兄弟将威尔第歌剧《弄臣》的主题改编为双长笛与钢琴作品。两支长笛交替演奏旋律和装饰音，抒情段落与技巧性较强的乐段相互穿插。"],
       performers: [["Zou Xiaotong", "Flute I"], ["Chang Xinran", "Flute II"], ["Zilin Chen", "Piano", true]]
     },
     BV19KKJzrEco: {
@@ -69,7 +69,7 @@
       title: ["Piano Trio No. 1 in B-flat Major, D. 898: I. Allegro moderato", "《降B大调第一钢琴三重奏》，D. 898：第一乐章"],
       composer: ["Franz Schubert", "弗朗茨·舒伯特"],
       setting: ["Tsinghua Symphony · Song of the Night Chamber Concert", "清华交响 · “夜之歌”室内乐音乐会"],
-      note: ["Schubert opens this late piano trio with an expansive, songful theme that immediately establishes warmth and forward motion. Violin, cello, and piano share the melodic material rather than separating solo and accompaniment roles, building a large-scale movement from lyrical exchanges and sweeping harmonic journeys.", "舒伯特以宽广而富有歌唱性的主题开启这部晚期钢琴三重奏，音乐从一开始便兼具温暖与推动力。小提琴、大提琴和钢琴共同分享旋律材料，而非简单区分独奏与伴奏，并通过抒情对话和辽阔的和声行进构成宏大的第一乐章。"],
+      note: ["The first movement of Schubert’s trio opens with a broad, singing theme. Violin, cello, and piano share the melodies and accompaniment as the movement develops through changing harmonies.","舒伯特这部三重奏的第一乐章以宽广、富有歌唱性的主题开始。小提琴、大提琴与钢琴共同承担旋律和伴奏，音乐随和声变化逐步展开。"],
       performers: [["Wang Meixuan", "Violin"], ["Xu Weixi", "Cello"], ["Zilin Chen", "Piano", true]]
     },
     BV1XnbC6UEAt: {
@@ -77,7 +77,7 @@
       title: ["Suite for Four Double Basses", "《四把低音提琴组曲》"],
       composer: ["Colin Brumby", "科林·布鲁姆比"],
       setting: ["Tsinghua Symphony · Resonance Chamber Concert · 2026", "清华交响 · “共鸣”室内乐音乐会 · 2026"],
-      note: ["Brumby's suite explores the double-bass quartet as a complete chamber ensemble. Independent lines move between melody, inner counterpoint, rhythmic punctuation, and bass foundation, highlighting the instrument's contrasting registers and its ability to create both transparent textures and a resonant collective sound.", "布鲁姆比的组曲把低音提琴四重奏视为完整的室内乐组合。四个独立声部在旋律、内声部对位、节奏点缀与低音基础之间转换，展现低音提琴不同音区的反差，以及它同时塑造透明织体与浑厚共鸣的能力。"],
+      note: ["Brumby’s suite is written for four double basses. The parts move between melody, counterpoint, rhythm, and bass support, making use of contrasts across the instrument’s range.","布鲁姆比的这部组曲为四把低音提琴而作。各声部轮流承担旋律、对位、节奏和低音支撑，展现低音提琴不同音区的音色。"],
       performers: [["Wang Tiantian", "Double bass"], ["Min Qincheng", "Double bass"], ["Zilin Chen", "Double bass", true], ["Li Qiaoyi", "Double bass"]]
     },
     BV1BbjR6fECy: {
@@ -85,7 +85,7 @@
       title: ["Grande Allegro di Concerto ‘Alla Mendelssohn’", "《门德尔松风格音乐会大快板》"],
       composer: ["Giovanni Bottesini", "乔瓦尼·波泰西尼"],
       setting: ["Tsinghua Symphony · Chamber performance", "清华交响 · 室内乐演出"],
-      note: ["Bottesini's concert allegro pays tribute to the expressive sweep and restless momentum associated with Mendelssohn's E-minor Violin Concerto. The double bass takes on rapid passagework and long cantabile lines, while the piano supports the solo arc with a warm, orchestral harmonic frame.", "波泰西尼的音乐会快板向门德尔松《e小调小提琴协奏曲》的抒情张力与持续动势致意。低音提琴承担快速音群与悠长歌唱性旋律，钢琴则以温暖而近似乐队的和声框架，支撑独奏声部完整的戏剧弧线。"],
+      note: ["Bottesini’s concert allegro draws on the style of Mendelssohn. The double-bass part alternates fast passages with sustained, singing lines, accompanied by piano.","这首音乐会快板借鉴了门德尔松的风格。低音提琴在快速音群与舒展的歌唱性旋律之间交替，由钢琴伴奏。"],
       performers: [["Wang Tiantian", "Double bass"], ["Zilin Chen", "Piano", true]]
     },
     BV1E8jR6FEN8: {
@@ -93,7 +93,7 @@
       title: ["Horn Trio in E-flat Major, Op. 40: II. Scherzo", "《降E大调圆号三重奏》，Op. 40：第二乐章"],
       composer: ["Johannes Brahms", "约翰内斯·勃拉姆斯"],
       setting: ["Tsinghua Symphony · Chamber performance", "清华交响 · 室内乐演出"],
-      note: ["The Scherzo of Brahms's Horn Trio is propelled by quick rhythmic figures and the sharply contrasted colors of horn, violin, and piano. Its energetic outer sections frame a more lyrical trio, so the movement shifts naturally between hunting-call vitality, intimate chamber dialogue, and Romantic warmth.", "勃拉姆斯圆号三重奏的谐谑曲由敏捷节奏和圆号、小提琴、钢琴之间鲜明的音色对比推动。充满活力的外段包围着更抒情的中段，使乐章在号角般的生命力、亲密的室内乐对话与浪漫主义温度之间自然切换。"],
+      note: ["The second movement of Brahms’s Horn Trio is a scherzo for horn, violin, and piano. Its lively outer sections contrast with a more lyrical middle section.","勃拉姆斯《圆号三重奏》的第二乐章是一首谐谑曲，由圆号、小提琴和钢琴演奏。前后两段节奏活跃，中段则较为抒情。"],
       performers: [["Wang Meixuan", "Violin"], ["Zhao Boyuan", "Horn"], ["Zilin Chen", "Piano", true]]
     },
     BV1ZbjR6fEfP: {
@@ -101,7 +101,7 @@
       title: ["Piano Quartet in A Minor, Op. 21: I. Allegro moderato, tranquillo", "《a小调钢琴四重奏》，Op. 21：第一乐章"],
       composer: ["Herbert Howells", "赫伯特·豪威尔斯"],
       setting: ["Tsinghua Symphony · Chamber performance", "清华交响 · 室内乐演出"],
-      note: ["Howells's early piano quartet blends English pastoral lyricism with a broad Romantic chamber style. The first movement begins in a restrained, tranquil atmosphere and gradually expands through closely woven string lines and luminous piano harmony, balancing private reflection with large-scale musical growth.", "豪威尔斯早期的钢琴四重奏把英国田园式抒情与宽广的浪漫主义室内乐风格结合起来。第一乐章从克制、安静的气氛开始，通过紧密交织的弦乐线条与明亮的钢琴和声逐渐展开，在私人化沉思与大尺度音乐发展之间取得平衡。"],
+      note: ["The first movement of Howells’s piano quartet begins quietly and gradually expands. Interwoven string parts and piano harmonies shape its lyrical character.","豪威尔斯《钢琴四重奏》的第一乐章从安静的段落开始，逐渐展开。弦乐声部相互交织，与钢琴的和声共同构成抒情的音乐。"],
       performers: [["Wang Meixuan", "Violin"], ["Jin Kaixuan", "Viola"], ["Wang Tiantian", "Cello"], ["Zilin Chen", "Piano", true]]
     },
     BV1ZbjR6fE9p: {
@@ -109,7 +109,7 @@
       title: ["Five Pieces for Two Violins and Piano", "《五首双小提琴与钢琴小品》"],
       composer: ["Dmitri Shostakovich", "德米特里·肖斯塔科维奇"],
       setting: ["Tsinghua Symphony · Chamber performance", "清华交响 · 室内乐演出"],
-      note: ["Drawn from Shostakovich's film and theatre music, these five short pieces move through prelude, gavotte, elegy, waltz, and polka characters. The two violins alternate between close partnership and pointed dialogue, while the piano anchors abrupt shifts from tenderness to dry humor and theatrical irony.", "这五首小品取材并改编自肖斯塔科维奇的电影与舞台音乐，在前奏曲、加沃特舞曲、挽歌、华尔兹与波尔卡等性格之间转换。两把小提琴时而紧密同行，时而形成尖锐对话，钢琴则稳住音乐从温柔到冷峻幽默、戏剧性讽刺的突然变化。"],
+      note: ["These five pieces draw on Shostakovich’s film and theatre music: Prelude, Gavotte, Elegy, Waltz, and Polka. The two violins share the melodies, with piano accompaniment supporting the different moods and dance rhythms.","这五首小品取材于肖斯塔科维奇的电影与舞台音乐，包括前奏曲、加沃特舞曲、挽歌、华尔兹和波尔卡。两把小提琴共同演奏旋律，钢琴伴奏衬托各曲不同的情绪和舞蹈节奏。"],
       performers: [["Wang Zhihao", "Violin I"], ["Li Tianmeng", "Violin II"], ["Zilin Chen", "Piano", true]]
     },
     BV1CQ4y1E7du: {
@@ -117,7 +117,7 @@
       title: ["Cinema Paradiso (arr. for Trio)", "《天堂电影院》（三重奏改编）"],
       composer: ["Ennio & Andrea Morricone", "埃尼奥·莫里康内、安德烈亚·莫里康内"],
       setting: ["Tsinghua Symphony · Trio performance", "清华交响 · 三重奏演出"],
-      note: ["Themes from Cinema Paradiso are shaped here for violin, cello, and piano. The arrangement preserves the score's nostalgic melodic directness: violin and cello exchange the principal lines like remembered voices, while the piano provides a gently unfolding harmonic and cinematic backdrop.", "《天堂电影院》的主题在本次演出中被改编为小提琴、大提琴与钢琴三重奏。编曲保留了配乐怀旧而直接的旋律气质：小提琴与大提琴像回忆中的两个声音交替歌唱，钢琴则铺开温柔流动、富有电影感的和声背景。"],
+      note: ["This arrangement presents themes from Cinema Paradiso for violin, cello, and piano. Violin and cello exchange the main melodies over piano accompaniment.","本次演出将《天堂电影院》的主题改编为小提琴、大提琴与钢琴三重奏。小提琴和大提琴交替演奏主要旋律，由钢琴伴奏。"],
       performers: [["Wang Jiahui", "Violin"], ["Yang Huhao", "Cello"], ["Zilin Chen", "Piano", true]]
     }
   };

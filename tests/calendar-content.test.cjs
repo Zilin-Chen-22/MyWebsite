@@ -14,7 +14,7 @@ test('calendar page embeds the public Cal.com profile with a direct fallback', (
   assert.match(calendar, /id="cal-inline-chenzili22"/);
   assert.match(calendar, /href="https:\/\/cal\.com\/chenzili22"/);
   assert.doesNotMatch(calendar, /outlook\.live\.com/);
-  assert.match(calendar, /no account required/);
+  assert.match(calendar, /no account required/i);
   assert.match(calendarScript, /calLink: 'chenzili22'/);
   assert.match(calendarScript, /https:\/\/app\.cal\.com\/embed\/embed\.js/);
 });
