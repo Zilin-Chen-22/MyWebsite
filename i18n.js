@@ -330,6 +330,8 @@
   "Enrolled since": "入学时间",
   "PhD Student, Mechanical Engineering": "机械工程博士在读",
   "Hong Kong": "中国香港",
+  "Beijing · Shenzhen · Hong Kong": "北京 · 深圳 · 香港",
+  "HKU Email ↗": "港大邮箱 ↗",
   "PhD Student, HKU": "香港大学博士在读",
   "B.E., Tsinghua University": "清华大学工学学士",
   "Education of Zilin Chen at the University of Hong Kong, Tsinghua University, and the University of Toronto.": "陈子林在香港大学、清华大学与多伦多大学的教育经历。",

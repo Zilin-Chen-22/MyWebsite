@@ -14,10 +14,13 @@ source = subprocess.check_output(['git','show','d7cf74e:assets/files/Zilin_Chen_
 text = '\n'.join(p.extract_text() for p in PdfReader(io.BytesIO(source)).pages)
 text = text[text.index('EDUCATION'):]
 text = re.sub(r'Aug\s+2022\s*-\s*present', 'Aug 2022 - Jun 2026', text)
+text = re.sub(r'Sep\s+2024\s*-\s*present', 'Sep 2024 - Jan 2025', text)
 text = text.replace('Current overall GPA until sophomore:', 'GPA through sophomore year:')
 lines=[]
 for raw in text.splitlines():
     line=' '.join(raw.split()).replace('–','-').replace('','•')
+    if 'UTAT Autonomous Drone Racing Team' in line:
+        line = re.sub(r'Sep\s+2024\s*-\s*present', 'Sep 2024 - Jan 2025', line)
     if not line: continue
     lines.append(line)
 styles=getSampleStyleSheet()
@@ -25,7 +28,7 @@ styles.add(ParagraphStyle(name='CVBody',fontName='Helvetica',fontSize=9,leading=
 styles.add(ParagraphStyle(name='CVSection',fontName='Helvetica-Bold',fontSize=11,leading=15,spaceBefore=13,spaceAfter=7,textColor=colors.HexColor('#20252c'),keepWithNext=True))
 styles.add(ParagraphStyle(name='CVName',fontName='Helvetica-Bold',fontSize=23,leading=29,spaceAfter=5))
 styles.add(ParagraphStyle(name='CVEntry',fontName='Helvetica-Bold',fontSize=9.5,leading=13,spaceAfter=4,keepWithNext=True))
-story=[Paragraph('Zilin Chen',styles['CVName']),Paragraph('PhD Student, Mechanical Engineering | The University of Hong Kong | ArcLab',styles['CVBody']),Paragraph('chenzili22@outlook.com | zilinchen79@gmail.com | (+86) 189-9550-1708',styles['CVBody'])]
+story=[Paragraph('Zilin Chen',styles['CVName']),Paragraph('PhD Student, Mechanical Engineering | The University of Hong Kong | ArcLab',styles['CVBody']),Paragraph('chenzili22@connect.hku.hk | chenzili22@outlook.com | zilinchen79@gmail.com',styles['CVBody']),Paragraph('Beijing / Shenzhen / Hong Kong | (+86) 189-9550-1708',styles['CVBody'])]
 sections={'EDUCATION','RESEARCH EXPERIENCES','LEADERSHIP AND ACTIVITIES','SKILLS'}
 for line in lines:
     if line in sections:
