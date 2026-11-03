@@ -67,6 +67,8 @@ Personal research portfolio for Zilin Chen / 陈子林, focused on robotics, con
 
 ## Content editing guidance
 
+- Confirmed on 2026-11-03: HKU enrollment has begun. Use PhD student / 博士在读, November 2026-present, expected October 2030; supervisor Peng Lu / 鲁鹏, Autonomous UAVs. Do not use incoming/future enrollment. CV has been updated; existing employment end date has not been provided.
+
 - Approved 2026-10-26: edit English and Chinese independently for natural wording, keeping the same facts. Use direct first-person introductions, factual education/skills labels, concrete research methods/results/limitations, and restrained music notes. Avoid slogans, ornate metaphors, literal translations, and inflated claims. Translate headings as complete units rather than fragments tied to English line breaks.
 
 The user does not need to edit HTML. They can provide replacement text, images, project details, or a new CV in natural language. Keep English source copy in the HTML and its Chinese equivalent in `i18n.js`.

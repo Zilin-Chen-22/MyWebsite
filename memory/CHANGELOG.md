@@ -1,5 +1,11 @@
 # Website change log
 
+## 2026-11-03
+
+- Confirmed HKU enrollment; updated the downloadable CV to PhD student, Mechanical Engineering, November 2026-present, expected October 2030; supervisor Peng Lu, Autonomous UAVs.
+- Updated Tsinghua completion date and current email addresses in the older CV, removed the obsolete dormitory address, and included the previously confirmed engineering role. Other CV claims and dates were retained from the original document.
+- Synchronized bilingual Home, About and Education enrollment status. Existing employment was not assumed to have ended.
+
 ## 2026-10-26
 
 - Approved bilingual copy edit (option C), following the user's accepted homepage sample: direct, personal language with concrete work and dates instead of slogans.
