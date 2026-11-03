@@ -7,7 +7,7 @@ const about = readFileSync('about.html', 'utf8');
 const home = readFileSync('index.html', 'utf8');
 const translations = readFileSync('i18n.js', 'utf8');
 
-test('incoming HKU PhD is complete and presented before earlier education', () => {
+test('enrolled HKU PhD is complete and presented before earlier education', () => {
   const required = [
     'The University of Hong Kong', 'Department of Mechanical Engineering · Hong Kong',
     'Doctoral Study', 'Doctor of Philosophy (4-year PhD)', 'Autonomous UAVs',
@@ -17,6 +17,18 @@ test('incoming HKU PhD is complete and presented before earlier education', () =
   assert.ok(education.indexOf('<h2>The University of Hong Kong</h2>') < education.indexOf('<h2>Tsinghua University</h2>'));
   assert.doesNotMatch(education, /Probationary|N\/A/);
   assert.doesNotMatch(education, /<span>Registration<\/span>|<span>Expected completion<\/span>|1 November 2026|31 October 2030/);
+});
+
+test('current affiliation is ArcLab, not a current Keyi position', () => {
+  const portfolio = readFileSync('portfolio.js', 'utf8');
+  for (const source of [home, about, portfolio]) {
+    assert.match(source, /ArcLab/);
+    assert.match(source, /https:\/\/arclab.hku.hk\//);
+    assert.doesNotMatch(source, /I work as a decision|目前在北京可以科技|Keyi Technology · Jul 2026–present|2026\.07 — Present/);
+  }
+  assert.match(about, /previously worked/);
+  assert.match(translations, /此前，我在北京可以科技/);
+  assert.match(education, /I joined ArcLab/);
 });
 
 test('HKU education is reflected in About, Home, and Chinese translations', () => {

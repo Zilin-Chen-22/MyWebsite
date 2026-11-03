@@ -25,16 +25,16 @@ styles.add(ParagraphStyle(name='CVBody',fontName='Helvetica',fontSize=9,leading=
 styles.add(ParagraphStyle(name='CVSection',fontName='Helvetica-Bold',fontSize=11,leading=15,spaceBefore=13,spaceAfter=7,textColor=colors.HexColor('#20252c'),keepWithNext=True))
 styles.add(ParagraphStyle(name='CVName',fontName='Helvetica-Bold',fontSize=23,leading=29,spaceAfter=5))
 styles.add(ParagraphStyle(name='CVEntry',fontName='Helvetica-Bold',fontSize=9.5,leading=13,spaceAfter=4,keepWithNext=True))
-story=[Paragraph('Zilin Chen',styles['CVName']),Paragraph('PhD Student, Mechanical Engineering | The University of Hong Kong',styles['CVBody']),Paragraph('chenzili22@outlook.com | zilinchen79@gmail.com | (+86) 189-9550-1708',styles['CVBody'])]
+story=[Paragraph('Zilin Chen',styles['CVName']),Paragraph('PhD Student, Mechanical Engineering | The University of Hong Kong | ArcLab',styles['CVBody']),Paragraph('chenzili22@outlook.com | zilinchen79@gmail.com | (+86) 189-9550-1708',styles['CVBody'])]
 sections={'EDUCATION','RESEARCH EXPERIENCES','LEADERSHIP AND ACTIVITIES','SKILLS'}
 for line in lines:
     if line in sections:
         if line=='RESEARCH EXPERIENCES':
-            story.extend([Paragraph('PROFESSIONAL EXPERIENCE',styles['CVSection']),Paragraph('Beijing Keyi Technology Co., Ltd. | Jul 2026 - present',styles['CVEntry']),Paragraph('Decision &amp; Planning Algorithm Engineer | Beijing, China',styles['CVBody'])])
+            story.extend([Paragraph('PROFESSIONAL EXPERIENCE',styles['CVSection']),Paragraph('Beijing Keyi Technology Co., Ltd. | Former employee',styles['CVEntry']),Paragraph('Decision &amp; Planning Algorithm Engineer | Joined Jul 2026 | Beijing, China',styles['CVBody'])])
         if line=='RESEARCH EXPERIENCES': story.append(PageBreak())
         story.append(Paragraph(line,styles['CVSection']))
         if line=='EDUCATION':
-            story.extend([Paragraph('The University of Hong Kong | Nov 2026 - present',styles['CVEntry']),Paragraph('Full-time PhD in Mechanical Engineering | Expected completion: Oct 2030',styles['CVBody']),Paragraph('Research: Autonomous UAVs | Supervisor: Prof. Peng Lu',styles['CVBody']),Spacer(1,8)])
+            story.extend([Paragraph('The University of Hong Kong | Nov 2026 - present',styles['CVEntry']),Paragraph('Full-time PhD in Mechanical Engineering | Expected completion: Oct 2030',styles['CVBody']),Paragraph('Field of study: Autonomous UAVs | Supervisor: Prof. Peng Lu',styles['CVBody']),Spacer(1,8)])
         continue
     style=styles['CVEntry'] if ('|' in line or line.startswith(('School of Mechanical','Department of Mechanical'))) else styles['CVBody']
     story.append(Paragraph(escape(line),style))
