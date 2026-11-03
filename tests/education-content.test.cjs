@@ -1,11 +1,20 @@
 const assert = require('node:assert/strict');
 const { readFileSync } = require('node:fs');
 const test = require('node:test');
+const { execFileSync } = require('node:child_process');
 
 const education = readFileSync('education.html', 'utf8');
 const about = readFileSync('about.html', 'utf8');
 const home = readFileSync('index.html', 'utf8');
 const translations = readFileSync('i18n.js', 'utf8');
+
+test('all published text sources are free of obsolete current-affiliation claims', () => {
+  const files = execFileSync('git', ['ls-files', '*.html', '*.js'], {encoding: 'utf8'}).trim().split('\n');
+  for (const file of files) {
+    const source = readFileSync(file, 'utf8');
+    assert.doesNotMatch(source, /I am a mechanical engineering student at Tsinghua|Zilin Chen is a robotics and control researcher at Tsinghua|Zilin Chen is a decision and planning algorithm engineer in Beijing|I work as a decision and planning algorithm engineer|目前在北京可以科技|即将赴香港大学|PhD Student student|Jul 2026[–-]present|2026\.07 — Present/, file);
+  }
+});
 
 test('enrolled HKU PhD is complete and presented before earlier education', () => {
   const required = [
